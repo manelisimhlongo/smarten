@@ -18,18 +18,28 @@ const Menu = () => {
 }
 
 const Navbar = () => {
+    const divStyle = {
+        backgroundColor: 'var(--1, lightgray)',
+        backgroundSize: '50% 50%',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+    };
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <div className="navbar">
             <div className="navbar-links">
-                <div className="nvabar-links_logo">
-
+                <div className='navbar-logo'>
                     <img src={logo} alt="logo" />
-
                 </div>
-                <div className="navbar-links_container">
+
+                <div className="navbar-text">
                     <p> board</p>
                 </div>
+            </div>
+
+            <div className="navbar-links">
+
+
 
                 <div className="navbar-links_container">
                     <p><a href="#products"> Products</a> </p>
