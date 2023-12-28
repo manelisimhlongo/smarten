@@ -1,0 +1,117 @@
+.banner-heading-text {
+    color: #FFF;
+
+    font-family: Ondo;
+    font-size: 68.937px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110.6%;
+    /* 76.245px */
+    letter-spacing: 2.757px;
+    text-transform: uppercase;
+}
+
+.banner-heading-gradient-text {
+    background: linear-gradient(90deg, #6542F4 43.84%, #F976FF 68.39%, #B50098 91.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Ondo;
+    font-size: 68.937px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110.6%;
+    letter-spacing: 2.757px;
+    text-transform: uppercase;
+}
+
+.banner-container-text {
+    color: #FFF;
+
+    font-family: Lato;
+    font-size: 18.715px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.1%;
+    /* 34.642px */
+    letter-spacing: 0.749px;
+}
+
+.banner-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.banner-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+
+.banner-extra-text {
+    color: #FFF;
+
+    font-family: Ondo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110.6%;
+    /* 33.18px */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.banner-extra-text-gradient {
+    font-family: Ondo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110.6%;
+    /* 33.18px */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    background: var(--Text-Gradient, linear-gradient(90deg, #6542F4 11.84%, #F976FF 51.56%, #B50098 86.46%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-extra-subtext {
+
+    color: #FFF;
+
+    font-family: Lato;
+    font-size: 18.715px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.1%;
+    /* 34.642px */
+    letter-spacing: 0.749px;
+    text-transform: capitalize;
+}
+
+.banner-bar {
+    width: 1453px;
+    height: 90px;
+    transform: rotate(-1.983deg);
+    flex-shrink: 0;
+    border: 1px solid #000;
+
+    background: lightgray 0% 0% / 100px 100px repeat, linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(217, 217, 217, 0.04) 100%);
+
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+    backdrop-filter: blur(25px);
+}
