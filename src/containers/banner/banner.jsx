@@ -19,7 +19,7 @@ const Banner = () => {
 
 
             <div className="banner-container-text">Playing electronic games, whether through consoles, computers, mobile phones or another medium altogether. Gaming is a nuanced term that suggests regular gameplay, possibly as a hobby.  </div>
-            <div className="banner-buttons">
+            <div className="banner-row">
                 <div className="head-text">
                     <img src={colorbutton} alt="color" />
                     <div class='text-on-image'>
