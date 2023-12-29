@@ -77,14 +77,14 @@
     flex-shrink: 0;
     border-radius: 11.222px;
     border: 1.122px solid var(--1, #000);
-    background: url('../../assets/game_couresel_1.jpeg'), lightgray 50% / cover no-repeat;
+    background: url('../../assets/game_couresel_3.jpeg'), lightgray 50% / cover no-repeat;
 }
 
 .main-image {
     width: 658.795px;
     height: 417.931px;
     flex-shrink: 0;
-    fill: url('../../assets/game_couresel_2.jpeg'), lightgray 50% / cover no-repeat, radial-gradient(131.74% 72.51% at 50.29% 14.34%, #6804A1 0%, #63049B 3.81%, #3E0275 32.68%, #230159 59.29%, #130048 82.58%, #0D0042 100%);
+    fill: url('../../assets/game_couresel_1.jpeg'), lightgray 50% / cover no-repeat, radial-gradient(131.74% 72.51% at 50.29% 14.34%, #6804A1 0%, #63049B 3.81%, #3E0275 32.68%, #230159 59.29%, #130048 82.58%, #0D0042 100%);
 }
 
 .forward-image {
@@ -93,7 +93,7 @@
     flex-shrink: 0;
     border-radius: 11.222px;
     border: 1.122px solid var(--1, #000);
-    background: url('../../assets/game_couresel_3.jpeg'), lightgray 50% / cover no-repeat;
+    background: url('../../assets/game_couresel_2.jpeg'), lightgray 50% / cover no-repeat;
 }
 
 .carousel-row{

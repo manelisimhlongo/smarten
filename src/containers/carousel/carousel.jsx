@@ -35,15 +35,9 @@ const Carousel = () => {
 
 
             <div className="carousel-row">
-                <div className="rev-image">
-
-                </div>
-                <div className="main-image">
-
-                </div>
-                <div className="forward-image">
-
-                </div>
+                <div className="rev-image"></div>
+             <div className="main-image"></div>
+                <div className="forward-image"></div>
             </div>
 
 
