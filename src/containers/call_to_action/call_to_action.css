@@ -1,0 +1,93 @@
+.cta-background {
+    display: flex;
+    width: 1440px;
+    height: 768px;
+    padding-bottom: 0.553px;
+    justify-content: center;
+    align-items: center;
+    background: #2D1E6B;
+    align-items: center;
+    align-content: center;
+}
+
+.cta-container {
+    width: 1240px;
+    height: 556px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: url('../../assets/call_to_action.png'), lightgray 0% 0% / 100px 100px repeat, linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(217, 217, 217, 0.04) 100%);
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+    backdrop-filter: blur(25px);
+}
+
+.cta-heading-gradient {
+    background: linear-gradient(90deg, #6542F4 15.99%, #F976FF 30.01%, #B50098 45.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Ondo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.6%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.cta-heading {
+    color: #FFF;
+    font-family: Ondo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 55.968px;
+    letter-spacing: -0.24px;
+    text-transform: uppercase;
+}
+
+.cta-subheading-container {
+    width: 463px;
+}
+
+.cta-subheading {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.616px;
+    letter-spacing: 0.64px;
+}
+
+.cta-row {
+    flex-direction: row;
+    flex: 1;
+    flex-flow: row;
+}
+
+.cta-column {
+    flex-direction: column;
+    flex: 1;
+    flex-flow: column;
+}
+
+
+.head-text {
+    position: relative;
+}
+
+
+.text-on-image {
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    bottom: 40%;
+}
+
+.cta-image {
+    width: 725px;
+    height: 639px;
+    background-size: auto;
+    background: url('../../assets/call_to_action.png') ;
+}
