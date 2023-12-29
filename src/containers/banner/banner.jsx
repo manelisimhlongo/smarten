@@ -1,6 +1,5 @@
 import React from "react";
 import './banner.css';
-import background from '../../assets/dashboard_image.png';
 import clearbutton from '../../assets/clear_button.svg';
 import colorbutton from '../../assets/color_button.svg';
 import { Navbar } from '../../components';
