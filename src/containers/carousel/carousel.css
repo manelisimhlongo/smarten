@@ -5,6 +5,7 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    
 }
 
 .carousel-row {
@@ -27,6 +28,8 @@
     line-height: 76.956px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    justify-content: center;
+    word-spacing: 10px;
 }
 
 .carousel-heading-gradient {
@@ -41,6 +44,15 @@
     line-height: 116.6%;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+.space{
+    width: 20px;
+}
+
+.space-height{
+    height: 50px;
 }
 
 .carousel-container {
@@ -72,6 +84,7 @@
     width: 658.795px;
     height: 417.931px;
     flex-shrink: 0;
+    fill: url('../../assets/game_couresel_2.jpeg'), lightgray 50% / cover no-repeat, radial-gradient(131.74% 72.51% at 50.29% 14.34%, #6804A1 0%, #63049B 3.81%, #3E0275 32.68%, #230159 59.29%, #130048 82.58%, #0D0042 100%);
 }
 
 .forward-image {
@@ -82,3 +95,62 @@
     border: 1.122px solid var(--1, #000);
     background: url('../../assets/game_couresel_3.jpeg'), lightgray 50% / cover no-repeat;
 }
+
+.carousel-row{
+    flex-direction: row;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.carousel-row-text{
+    flex-direction: row;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+}
+
+
+
+.button-text {
+    color: #FFF;
+
+    font-family: Ondo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.12px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.button-text-gradient {
+    background: var(--Text-Gradient, linear-gradient(90deg, #6542F4 11.84%, #F976FF 51.56%, #B50098 86.46%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: Ondo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.12px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.head-text {
+    position: relative;
+}
+
+
+.text-on-image {
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    bottom: 40%;
+}
+
+
