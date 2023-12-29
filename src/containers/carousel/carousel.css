@@ -1,0 +1,84 @@
+.carousel-background {
+    background: #2D1E6B;
+    width: 100%;
+    height: 906px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.carousel-row {
+    flex-direction: row;
+    flex: 1;
+    flex-flow: row;
+}
+
+.carousel-heading-content {
+    width: 718px;
+}
+
+.carousel-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Ondo;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 76.956px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.carousel-heading-gradient {
+    background: linear-gradient(90deg, #6542F4 15.99%, #F976FF 30.01%, #B50098 45.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Ondo;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.6%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.carousel-container {
+    width: 518px;
+}
+
+.carousel-container-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.616px;
+    letter-spacing: 0.64px;
+    justify-content: center;
+}
+
+.rev-image {
+    width: 451.136px;
+    height: 366.969px;
+    flex-shrink: 0;
+    border-radius: 11.222px;
+    border: 1.122px solid var(--1, #000);
+    background: url('../../assets/game_couresel_1.jpeg'), lightgray 50% / cover no-repeat, url('../../assets/game_couresel_1.jpeg'), lightgray 50% / cover no-repeat;
+}
+
+.main-image {
+    width: 658.795px;
+    height: 417.931px;
+    flex-shrink: 0;
+}
+
+.forward-image {
+    width: 451.136px;
+    height: 366.969px;
+    flex-shrink: 0;
+    border-radius: 11.222px;
+    border: 1.122px solid var(--1, #000);
+    background: url('../../assets/game_couresel_3.jpeg'), lightgray 50% / cover no-repeat;
+}
