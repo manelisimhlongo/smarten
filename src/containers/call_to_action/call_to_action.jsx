@@ -2,14 +2,19 @@ import React from "react";
 import './call_to_action.css';
 import clearbutton from '../../assets/clear_button.svg';
 import person from '../../assets/call_to_action.png';
+import ClearButton from '../../components/buttons/clear_button';
+import ColorButton from '../../components/buttons/color_button';
 
 const Action = () => {
+    const handleClick = () => {
+        console.log('Button was clicked!');
+    };
     return (
         <div className="cta-background">
             <div className="cta-container">
 
                 <div className="cta-row">
-                   
+
                     <div className="cta-column">
                         <div className="cta-heading-container">
                             <div className="cta-heading">discover the</div>
@@ -26,12 +31,20 @@ const Action = () => {
                             </div>
                         </div>
 
+                        <div>
+                            <ClearButton onClick={handleClick} >
+
+                            </ClearButton>
+                        </div>
+
                         <div className="head-text">
                             <img src={clearbutton} alt="clear" />
                             <div class='text-on-image'>
                                 <div className="button-text-gradient"> play now </div>
                             </div>
                         </div>
+
+
 
                     </div>
                 </div>

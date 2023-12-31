@@ -3,8 +3,8 @@ import './testimonial.css';
 
 const Testimonial = () => {
     return (
-        <div>
-            Testimonial
+        <div className="testimonial-bg">
+       
         </div>
     );
 }

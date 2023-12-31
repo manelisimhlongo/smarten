@@ -1,0 +1,41 @@
+.filter-bg {
+    display: flex;
+    width: 100%;
+    height: 1447px;
+    padding: 0px 98px 0px 97px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2D1E6B;
+}
+
+.filter-heading {
+    width: 718px;
+}
+
+.text {
+    color: #FFF;
+    text-align: center;
+    font-family: Ondo;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.6%;
+    /* 76.956px */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #6542F4 45.92%, #F976FF 61.87%, #B50098 75.9%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Ondo;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116.6%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
