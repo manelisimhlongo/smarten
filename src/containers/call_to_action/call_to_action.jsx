@@ -32,17 +32,10 @@ const Action = () => {
                         </div>
 
                         <div>
-                            <ClearButton onClick={handleClick} >
 
-                            </ClearButton>
                         </div>
 
-                        <div className="head-text">
-                            <img src={clearbutton} alt="clear" />
-                            <div class='text-on-image'>
-                                <div className="button-text-gradient"> play now </div>
-                            </div>
-                        </div>
+
 
 
 
