@@ -22,6 +22,7 @@ const Filter = () => {
     };
     return (
         <div className="filter-bg">
+            <div className="height-spacing"></div>
             <div className="filter-heading">
                 <div className="text">Welcome to the</div>
                 <div className="filter-row">
@@ -30,38 +31,39 @@ const Filter = () => {
                     <div className="gradient-text">games</div>
                 </div>
             </div>
+       
             <div className="filter-row">
                 <ColorButton onClick={handleClick} text={'Newest Games'} />
-                <ClearButton onClick={handleClick} text={'Newest Games'} />
-                <ClearButton onClick={handleClick} text={'Newest Games'} />
-                <ClearButton onClick={handleClick} text={'Newest Games'} />
-
-
+                <ClearButton onClick={handleClick} text={'Latest Games'} />
+                <ClearButton onClick={handleClick} text={'Fight Games'} />
+                <ClearButton onClick={handleClick} text={'Sport Games'} />
             </div>
-
+            <div className="height-spacing"></div>
             <div className="filter-row">
                 <FilterCard img={avatar1} subsubtext={'Gillette'} subtext={'Cameron Williamson'} mainImg={img1} />
                 <div className="spacing"></div>
-                <FilterCard img={avatar2} subsubtext={'Gillette'} subtext={'Cameron Williamson'} mainImg={img2} />
+                <FilterCard img={avatar2} subsubtext={'Louis Vuitton'} subtext={'Dianne Russell'} mainImg={img2} />
                 <div className="spacing"></div>
-                <FilterCard img={avatar3} subsubtext={'Gillette'} subtext={'Cameron Williamson'} mainImg={img3} />
-            </div>
+                <FilterCard img={avatar3} subsubtext={'MasterCard'} subtext={'Jane Cooper'} mainImg={img3} />
 
+            </div>
+            <div className="height-spacing"></div>
             <div className="filter-row">
-                <FilterCard img={avatar4} subsubtext={'Gillette'} subtext={'Cameron Williamson'} mainImg={img4} />
-                <div className="spacing"></div>
-                <FilterCard img={avatar5} subsubtext={'Gillette'} subtext={'Cameron Williamson'} mainImg={img5} />
-                <div className="spacing"></div>
-                <FilterCard img={avatar6} subsubtext={'Gillette'} subtext={'Cameron Williamson'} mainImg={img6} />
 
+                <FilterCard img={avatar4} subsubtext={'The Walt Disney Company'} subtext={'Cody Fisher'} mainImg={img4} />
+                <div className="spacing"></div>
+                <FilterCard img={avatar5} subsubtext={'Gillette'} subtext={'Wade Warren'} mainImg={img5} />
+                <div className="spacing"></div>
+                <FilterCard img={avatar6} subsubtext={"L'Oréal"} subtext={'Robert Fox'} mainImg={img6} />
             </div>
 
 
-
+            
         </div>
     );
 }
 
 export default Filter;
 
-/** */
+/*
+/>*/
