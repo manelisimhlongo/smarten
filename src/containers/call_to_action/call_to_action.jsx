@@ -1,15 +1,13 @@
 import React from "react";
 import './call_to_action.css';
-import clearbutton from '../../assets/clear_button.svg';
 import person from '../../assets/call_to_action.png';
 import ClearButton from '../../components/buttons/clear_button';
-import ColorButton from '../../components/buttons/color_button';
 import star from '../../assets/star.svg';
 
 const Action = () => {
-    const handleClick = () => {
+    /*const handleClick = () => {
         console.log('Button was clicked!');
-    };
+    };*/
     return (
         <div className="cta-background">
             <div className="ct-column">
