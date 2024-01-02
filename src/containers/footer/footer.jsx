@@ -25,7 +25,10 @@ const Footer = () => {
                 <div className="row">
                     <div className="column">
                         <div className="row">
+                            <div className="logo-img">
+
                             <img src={logo} alt="logo" />
+                            </div>
                             <div className="logo-text">board</div>
                         </div>
 

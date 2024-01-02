@@ -12,18 +12,23 @@
 
 }
 
+.logo-img {
+    width: 59.151px;
+    height: 45.067px;
+    flex-shrink: 0;
+    fill: var(--1, lightgray 50% / cover no-repeat);
+}
+
 
 .banner-bar-text {
     color: #FFF;
     font-family: Ondo;
-    font-size: 37.039px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: 40.965px;
-    letter-spacing: 1.482px;
+    line-height:33.18px;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
-    overflow: hidden;
-    text-wrap: wrap;
 }
 
 .banner-bar-row {
@@ -35,6 +40,7 @@
     background: url('../../assets/rectangle.png');
     box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
     backdrop-filter: blur(25px);
+    
 
 }
 
@@ -113,7 +119,8 @@
     display: flex;
 }
 
-.content{
+.content {
     justify-content: center;
     align-items: center;
+    display: flex;
 }
