@@ -5,8 +5,7 @@
     font-size: 68.937px;
     font-style: normal;
     font-weight: 800;
-    line-height: 110.6%;
-    /* 76.245px */
+    line-height: 76.245px;
     letter-spacing: 2.757px;
     text-transform: uppercase;
 }
@@ -27,7 +26,6 @@
 
 .banner-container-text {
     color: #FFF;
-
     font-family: Lato;
     font-size: 18.715px;
     font-style: normal;
@@ -53,7 +51,6 @@
 
 .banner-extra-text {
     color: #FFF;
-
     font-family: Ondo;
     font-size: 30px;
     font-style: normal;
@@ -78,9 +75,7 @@
 }
 
 .banner-extra-subtext {
-
     color: #FFF;
-
     font-family: Lato;
     font-size: 18.715px;
     font-style: normal;
@@ -102,7 +97,9 @@
     backdrop-filter: blur(25px);
 }
 
-.banner-bar-text {
+
+
+.banner-bar-texts{
     color: #FFF;
     overflow: hidden;
     font-family: Ondo;
@@ -114,15 +111,23 @@
     flex-direction: row;
     overflow-inline: hidden;
     text-transform: uppercase;
+    width: max-content;
 }
 
-.banner-bar-row {
-    display: inline-flex;
-    align-items: flex-start;
-    flex-direction: row;
+.bar-spacing{
     gap: 51px;
-
 }
+
+.overlay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+    background-color: 'rgba(0, 0, 0, 0.5)';
+  }
+
+
 
 .banner-columns {
     flex-direction: column;
@@ -155,7 +160,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     font-family: Ondo;
     font-size: 20px;
     font-style: normal;
@@ -180,14 +184,38 @@
 .banner-heading-content {
     width: 560;
     height: 230;
-    padding-left: 30px;
+    padding-left: 180px;
 }
 
 .banner-secondary-content {
-    padding-left: 30px;
+    padding-left: 180px;
     padding-bottom: 30px;
     padding-top: 20px;
     width: 602px;
     height: 105;
 
+}
+
+.info-container {
+    width: 150px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+
+}
+
+.space {
+    width: 10px;
+}
+
+.space-31 {
+    width: 31px;
+}
+
+.space-180 {
+    width: 180px;
 }

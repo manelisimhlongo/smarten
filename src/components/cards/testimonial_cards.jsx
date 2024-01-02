@@ -6,14 +6,26 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
     return (
         <div className="testimonial-card">
             <div className="card-column">
+                <div className="star-container">
 
-                <img src={stars} alt="stars"/>
-                <div className="testimonial-card-text">
-                    {text}
+                    <img src={stars} alt="stars" />
                 </div>
-                <div className="testimonial-card-bar"></div>
-                <div className="card-row">
-                    <div className="space-25"></div>
+                <div className="row">
+
+                    <div className="testimonial-card-text">
+                        {text}
+                    </div>
+                </div>
+                <div className="space-18"></div>
+                <div className="row">
+                    <div className="testimonial-card-bar"></div>
+                </div>
+
+                <div className="space-18"></div>
+
+
+                <div className="row">
+                    <div className="space-35"></div>
                     <div className="avatar-img"> <img src={img} alt="" /> </div>
                     <div className="small-space-width"></div>
                     <div className="card-column">
