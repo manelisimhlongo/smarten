@@ -1,17 +1,17 @@
 .footer-bg {
-    mix-blend-mode: color-dodge;
     width: 100%;
-    height: 529px;
+    height: 600px;
     flex-shrink: 0;
+    background: url('../../assets/footer_image.jpeg') lightgray no-repeat center center fixed;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    background-size: cover;
+
 }
 
-.footer-bg img {
-    width: 100%;
-    height: 529px;
-    flex-shrink: 0;
-    background-size: auto;
-
-}
 
 .banner-bar-text {
     color: #FFF;
@@ -43,4 +43,77 @@
     background-size: auto;
     width: 50px;
     height: 80px;
+}
+
+.footer-text {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.1%;
+    /* 29.616px */
+    letter-spacing: 0.64px;
+}
+
+.footer-heading {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110.6%;
+    /* 19.908px */
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+}
+
+.logo-text {
+    color: #FFF;
+    font-family: Ondo;
+    font-size: 39.778px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110.6%;
+    /* 43.994px */
+    letter-spacing: 1.591px;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.6%;
+    /* 24.304px */
+    letter-spacing: 0.91px;
+}
+
+.footer-container {
+    width: 315px;
+    justify-content: center;
+}
+
+.space-height {
+    height: 121px;
+}
+
+.row {
+    flex-direction: row;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
 }
