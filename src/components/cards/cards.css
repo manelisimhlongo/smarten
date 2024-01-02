@@ -169,13 +169,14 @@
     background: linear-gradient(90deg, #FFF 1.04%, rgba(255, 255, 255, 0.00) 100%);
 }
 
-.verified{
+.verified {
     color: #FFF;
-font-family: Lato;
-font-size: 14.65px;
-font-style: normal;
-font-weight: 500;
-line-height: 110.6%; /* 16.203px */
-letter-spacing: 0.513px;
-text-transform: capitalize;
+    font-family: Lato;
+    font-size: 14.65px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110.6%;
+    /* 16.203px */
+    letter-spacing: 0.513px;
+    text-transform: capitalize;
 }
