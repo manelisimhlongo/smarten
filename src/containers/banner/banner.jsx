@@ -3,7 +3,6 @@ import './banner.css';
 import clearbutton from '../../assets/clear_button.svg';
 import colorbutton from '../../assets/color_button.svg';
 import { Navbar, NormalBanner } from '../../components';
-import star from '../../assets/star.svg';
 const Banner = () => {
 
 
@@ -27,18 +26,18 @@ const Banner = () => {
 
             </div>
 
-            <div className="banner-row">
+            <div className="row">
                 <div className="space-180"></div>
-                <div className="head-text">
+                <div className="button-container">
                     <img src={colorbutton} alt="color" />
-                    <div class='text-on-image'>
-                        <div className="button-text"> Buy now </div>
+                    <div class='text-overlay'>
+                       <div className="button-text"> Buy now </div>
                     </div>
                 </div>
 
-                <div className="head-text">
+                <div className="button-container">
                     <img src={clearbutton} alt="clear" />
-                    <div class='text-on-image'>
+                    <div class='text-overlay'>
                         <div className="button-text-gradient"> play now </div>
                     </div>
                 </div>

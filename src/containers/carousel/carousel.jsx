@@ -51,16 +51,16 @@ const Carousel = () => {
 
             <div className="space-height"></div>
             <div className="carousel-row">
-                <div className="head-text">
+                <div className="button-container">
                     <img src={colorbutton} alt="color" />
-                    <div class='text-on-image'>
+                    <div class='text-overlay'>
                         <div className="button-text"> view all </div>
                     </div>
                 </div>
 
-                <div className="head-text">
+                <div className="button-container">
                     <img src={clearbutton} alt="clear" />
-                    <div class='text-on-image'>
+                    <div class='text-overlay'>
                         <div className="button-text-gradient"> play now </div>
                     </div>
                 </div>
