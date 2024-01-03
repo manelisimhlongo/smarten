@@ -1,7 +1,7 @@
 import React from "react";
 import './call_to_action.css';
 import person from '../../assets/call_to_action.png';
-import ClearButton from '../../components/buttons/clear_button';
+import clearbutton from '../../assets/clear_button.svg';
 import { NormalBanner } from "../../components";
 
 const Action = () => {
@@ -56,7 +56,16 @@ const Action = () => {
                                 <div className="space-height-10h"></div>
                                 <div className="space-height-10h"></div>
                                 <div className="space-height-10h"></div>
-                                <ClearButton text={'Play Now'} />
+                                <div className="row-button">
+                                    <div className="button-container">
+                                        <img src={clearbutton} alt="clearbutton" />
+                                        <div className="overlay-buttontext">
+                                            Play now
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
 
 

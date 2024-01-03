@@ -123,9 +123,40 @@
     height: 10px;
 }
 
-.img-overlay{
+.img-overlay {
     position: absolute;
     top: -95px;
     left: 10px;
 
+}
+
+.overlay-buttontext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--Text-Gradient, linear-gradient(90deg, #6542F4 11.84%, #F976FF 51.56%, #B50098 86.46%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Ondo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.12px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.row-button{
+    flex: 1;
 }
