@@ -1,6 +1,5 @@
 .banner-heading-text {
     color: #FFF;
-
     font-family: Ondo;
     font-size: 68.937px;
     font-style: normal;
@@ -36,9 +35,8 @@
 
 .banner-section {
     width: 100%;
-    height: 900px;
+    height: 770px;
     flex-shrink: 0;
-    background: url('../../assets/dashboard_image.png') lightgray no-repeat center center fixed;
     flex-shrink: 0;
     flex: 1;
     display: flex;
@@ -46,7 +44,32 @@
     align-items: flex-start;
     flex-direction: column;
     margin-right: 5rem;
+    background: #2D1E6B
+}
+
+.banner-blur {
+    position: absolute;
+    left: -50px;
+
+    width: 341px;
+    height: 341px;
+    flex-shrink: 0;
+    border-radius: 341px;
+    background: #DD00B8;
+    filter: blur(292px);
+}
+
+
+
+.page-img {
+    position: absolute;
+    width: 100%;
+    height: 610px;
+    background: url('../../assets/dashboard_image.png') lightgray no-repeat center center fixed;
     background-size: cover;
+    mix-blend-mode: color-dodge;
+
+
 }
 
 .banner-extra-text {
@@ -120,9 +143,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
     height: 100%;
-    background-color: 'rgba(0, 0, 0, 0.5)';
+    background-color: rgba(79, 18, 99, 0.5);
 }
 
 

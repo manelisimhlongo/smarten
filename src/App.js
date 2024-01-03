@@ -1,6 +1,5 @@
 import React from "react";
 import { Filter, Action, Footer, Carousel, Banner, Testimonial } from './containers';
-
 import './App.css';
 
 function App() {

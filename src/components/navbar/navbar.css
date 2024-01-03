@@ -12,7 +12,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+
 }
 
 .navbar-links_logo {
@@ -37,7 +37,7 @@
 
 
 .navbar-container-1 {
-width: 150px;
+    width: 150px;
 }
 
 .navbar-logo {
