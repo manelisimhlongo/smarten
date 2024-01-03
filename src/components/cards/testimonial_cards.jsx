@@ -14,7 +14,7 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
                     <img src={bar1} alt="" />
 
                 </div>
-          
+
 
                 <div className="img-overlay-0">
 
@@ -42,11 +42,13 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
                 <div className="space-18"></div>
 
 
-                <div className="row">
+                <div className="card-row">
                     <div className="space-35"></div>
-                    <div className="avatar-img"> <img src={img} alt="" /> </div>
+                    <div className="avatar-img"> <img src={img} alt="img" /> </div>
                     <div className="small-space-width"></div>
-                    <div className="column">
+
+                    <div className="space-25"></div>
+                    <div className="card-column">
                         <div className="sub-text">{name}</div>
                         <div className="small-space"></div>
                         <div className="sub-sub-text">{subtext}</div>
@@ -54,28 +56,28 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
                     <div className="space-35"></div>
                     <div className="space-35"></div>
                     <div className="space-35"></div>
+                    <div className="space-35"></div>
+                    <div className="space-35"></div>
 
-                    <div className="container">
-                        <div className="row">
 
-                            <div className="img-overlay-2">
+                    <img src={verification} alt="verification" />
+                    <div className="img-overlay-2">
 
-                                <img src={tick} alt="" />
-                            </div>
-                            <img src={verification} alt="verification" />
-                            <div className="card-column">
-                                <div className="verified">
-                                    Verified
-                                </div>
-                            </div>
+                        <img src={tick} alt="tick" />
 
+                    </div>
+                    <div className="card-column">
+                        <div className="verified">
+                            Verified
                         </div>
-
                     </div>
 
 
-
                 </div>
+
+
+
+
             </div>
 
         </div>
