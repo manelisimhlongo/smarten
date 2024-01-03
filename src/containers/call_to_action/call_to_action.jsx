@@ -29,7 +29,7 @@ const Action = () => {
                                 <div className="cta-heading">discover the</div>
                                 <div className="cta-row-heading">
                                     <div className="cta-heading-gradient">virtual </div>
-                                    <div className="space-width"></div>
+                                    <div className="space-width-10"></div>
                                     <div className="cta-heading">reality </div>
                                 </div>
                                 <div className="cta-heading">gaming </div>
