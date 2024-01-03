@@ -7,6 +7,17 @@
     padding: 2rem 6rem;
 }
 
+.navbar-logo-text {
+    color: #FFF;
+    font-family: Ondo;
+    font-size: 30.767px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110.6%;
+    /* 34.028px */
+    letter-spacing: 1.231px;
+}
+
 .navbar-links {
     flex: 1;
     display: flex;
@@ -19,6 +30,18 @@
     margin-right: 2rem;
 }
 
+.circle-img {
+    border-radius: 6px;
+    background: url('../../assets/testimonial-bar1.png'), lightgray 50% / cover no-repeat, #D9D9D9;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+
 .navbar-links_logo img {
     width: 45.751px;
     height: 34.858px;
@@ -27,24 +50,40 @@
 
 .navbar-links_container {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    max-width: max-content;
+    align-items: flex-start;
+    gap: 40px;
 
 
-}
-
-
-
-.navbar-container-1 {
-    width: 150px;
 }
 
 .navbar-logo {
-    background-color: var(--1, lightgray);
+    background-color: var(--1);
     background-size: 50% 50%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.navbar-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-circle {
+    position: absolute;
+    top: 60px;
+    right: 82px;
+    width: 6px;
+    height: 6px;
+    flex-shrink: 0;
+    border-radius: 5px;
+
+}
+
+.navbar-circle img {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 53px;
 }
 
 .navbar-menu_container {
@@ -65,9 +104,15 @@
 
 .navbar-links_container p,
 .navbar-menu_container p {
-
+    width: 150px;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
     margin: 0 1rem;
     cursor: pointer;
+    max-width: max-content;
     color: #FFF;
     font-family: Lato;
     font-size: 18px;
@@ -76,12 +121,13 @@
     line-height: 19.908px;
     letter-spacing: 0.72px;
     text-transform: uppercase;
+    flex: 1;
+
 
 }
 
 .navbar-menu {
     margin-left: 1rem;
-
     display: none;
     position: relative;
 }
@@ -99,6 +145,8 @@
     cursor: pointer;
     border-radius: 5px;
 }
+
+
 
 @media screen and (max-width: 1050px) {
     .navbar-links_container {

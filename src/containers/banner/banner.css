@@ -49,8 +49,8 @@
 
 .banner-blur {
     position: absolute;
-    left: -50px;
-
+    left: -100px;
+    top: -50px;
     width: 341px;
     height: 341px;
     flex-shrink: 0;

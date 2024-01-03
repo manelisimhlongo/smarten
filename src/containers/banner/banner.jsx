@@ -8,17 +8,9 @@ const Banner = () => {
 
     return (
         <div className="banner-section">
-            <img src="../../assets/dashboard_image.png" alt="" />
+            <div className="page-img"></div>
             <div className="banner-blur"></div>
-
-
-            <div className="page-img">
-         
-            </div>
             <Navbar />
-           
-
-
             <div className="banner-heading-content">
                 <div className="banner-heading-text">let your </div>
                 <div className="banner-row">
