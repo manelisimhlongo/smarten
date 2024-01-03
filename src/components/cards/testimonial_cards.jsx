@@ -14,9 +14,9 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
                     <img src={bar1} alt="" />
 
                 </div>
-                <div className="space-25"></div>
+          
 
-                <div className="img-overlay">
+                <div className="img-overlay-0">
 
                     <img src={bar2} alt="" />
                 </div>

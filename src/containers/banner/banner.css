@@ -97,8 +97,6 @@
     backdrop-filter: blur(25px);
 }
 
-
-
 .banner-bar-texts{
     color: #FFF;
     overflow: hidden;
@@ -141,6 +139,14 @@
     flex-shrink: 0;
     flex: 1;
     display: flex;
+}
+
+.column{
+    flex-direction: column;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .button-text {
@@ -218,4 +224,8 @@
 
 .space-180 {
     width: 180px;
+}
+
+.space-10h{
+    height: 10px;
 }

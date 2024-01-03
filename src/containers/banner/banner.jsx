@@ -74,7 +74,13 @@ const Banner = () => {
             <div className="banner-bar">
                 <div className="row">
 
-                    <NormalBanner />
+                    <div className="column">
+                        <div className="space-10h"></div>
+                        <div className="space-10h"></div>
+                        <NormalBanner />
+                    </div>
+
+
                 </div>
             </div>
 
