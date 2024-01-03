@@ -22,7 +22,7 @@ const Testimonial = () => {
                 <div className="space-width"></div>
                 <TestimonialCard img={avatar2} name={'Kathryn Murphy'} subtext={"General Electric"} text={"Another aspect that sets this website apart is its vibrant and passionate community. The forum section provides a platform for gamers from all walks of life to connect, share their experiences, and discuss their favorite titles. I've made valuable friendships and found like-minded individuals who share my enthusiasm for gaming"} />
             </div>
-            <div className="space-height"></div>
+            <div className="space-height-40h"></div>
             <div className="row">
                 <div className="bottom-icons">
                     <img src={icons} alt="icons" />

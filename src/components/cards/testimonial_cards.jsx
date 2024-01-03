@@ -10,10 +10,18 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
     return (
         <div className="testimonial-card">
             <div className="row">
-                <img src={bar1} alt="" />
+                <div className="img-overlay-1">
+                    <img src={bar1} alt="" />
+
+                </div>
                 <div className="space-25"></div>
-                <img src={bar2} alt="" />
+
+                <div className="img-overlay">
+
+                    <img src={bar2} alt="" />
+                </div>
             </div>
+
 
             <div className="card-column">
                 <div className="star-container">

@@ -211,3 +211,15 @@
     width: 100px;
     height: 100px;
 }
+
+.img-overlay{
+    position: absolute;
+    right: 70px;
+    top: -50px;
+}
+
+.img-overlay-1{
+    position: absolute;
+    right: 140px;
+    top: -50px;
+}
