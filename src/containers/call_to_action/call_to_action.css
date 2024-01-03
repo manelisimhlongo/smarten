@@ -98,7 +98,6 @@
     bottom: 40%;
 }
 
-
 .cta-image img {
     width: 725px;
     height: 600px;
@@ -119,10 +118,3 @@
     height: 20px;
 }
 
-.row {
-    flex-direction: row;
-    flex-shrink: 0;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
