@@ -20,16 +20,7 @@
 }
 
 
-.banner-bar-text {
-    color: #FFF;
-    font-family: Ondo;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height:33.18px;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-}
+
 
 .banner-bar-row {
     display: inline-flex;
@@ -40,16 +31,10 @@
     background: url('../../assets/rectangle.png');
     box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
     backdrop-filter: blur(25px);
-    
 
 }
 
-.banner-bar-row img {
-    flex-shrink: 0;
-    background-size: auto;
-    width: 50px;
-    height: 80px;
-}
+
 
 .footer-text {
     color: #FFF;

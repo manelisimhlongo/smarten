@@ -36,13 +36,17 @@ const Carousel = () => {
 
             <div className="carousel-row">
                 <div className="rev-image"></div>
-             <div className="main-image"></div>
+                <div className="space"></div>
+
+                <div className="main-image"></div>
+                <div className="space"></div>
+
                 <div className="forward-image"></div>
             </div>
 
 
 
-
+            <div className="space-height"></div>
             <div className="carousel-row">
                 <div className="head-text">
                     <img src={colorbutton} alt="color" />
@@ -57,9 +61,8 @@ const Carousel = () => {
                         <div className="button-text-gradient"> play now </div>
                     </div>
                 </div>
-
-
             </div>
+            <div className="space-height"></div>
         </div>
     );
 }

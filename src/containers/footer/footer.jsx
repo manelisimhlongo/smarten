@@ -1,7 +1,7 @@
 import React from "react";
 import './footer.css';
-import star from '../../assets/star.svg';
 import logo from '../../assets/logo.png'
+import { NormalBanner } from "../../components";
 
 
 const Footer = () => {
@@ -10,24 +10,15 @@ const Footer = () => {
 
 
             <div className="banner-bar-row">
-
-                <div className="banner-bar-text">Game Spanning</div>
-
-                <img src={star} alt="star" />
-                <div className="banner-bar-text">Action - Packed</div>
-                <img src={star} alt="star" />
-                <div className="banner-bar-text">Mind Bending</div>
-                <img src={star} alt="star" />
-                <div className="banner-bar-text">collection og games</div>
+                <NormalBanner />
             </div>
-
             <div className="content">
                 <div className="row">
                     <div className="column">
                         <div className="row">
                             <div className="logo-img">
 
-                            <img src={logo} alt="logo" />
+                                <img src={logo} alt="logo" />
                             </div>
                             <div className="logo-text">board</div>
                         </div>

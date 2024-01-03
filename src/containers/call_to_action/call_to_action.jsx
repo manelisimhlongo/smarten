@@ -2,7 +2,7 @@ import React from "react";
 import './call_to_action.css';
 import person from '../../assets/call_to_action.png';
 import ClearButton from '../../components/buttons/clear_button';
-import star from '../../assets/star.svg';
+import { NormalBanner } from "../../components";
 
 const Action = () => {
     /*const handleClick = () => {
@@ -11,9 +11,10 @@ const Action = () => {
     return (
         <div className="cta-background">
             <div className="ct-column">
+                <div className="space-width"></div>
                 <div className="cta-container">
 
-                    <div className="cta-row">
+                    <div className="row">
                         <div className="cta-column">
                             <div className="cta-image">
 
@@ -47,17 +48,8 @@ const Action = () => {
 
                 </div>
                 <div className="space-height"></div>
-                <div className="banner-bar-row">
-
-                    <div className="banner-bar-text">Game Spanning</div>
-
-                    <img src={star} alt="star" />
-                    <div className="banner-bar-text">Action - Packed</div>
-                    <img src={star} alt="star" />
-                    <div className="banner-bar-text">Mind Bending</div>
-                    <img src={star} alt="star" />
-                    <div className="banner-bar-text">collection og games</div>
-                </div>
+                <div className="space-height"></div>
+                <NormalBanner />
             </div>
 
 

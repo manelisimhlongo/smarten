@@ -114,3 +114,11 @@
 .space-height {
     height: 20px;
 }
+
+.row {
+    flex-direction: row;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
