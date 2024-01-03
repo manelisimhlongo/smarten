@@ -9,18 +9,18 @@ import bar2 from '../../assets/testimonial-bar2.png';
 const TestimonialCard = ({ img, name, text, subtext }) => {
     return (
         <div className="testimonial-card">
-            <div className="row">
-                <div className="img-overlay-1">
+
+
+
+
+            <div className="img-overlay-0">
+                <div className="row">
                     <img src={bar1} alt="" />
-
-                </div>
-
-
-                <div className="img-overlay-0">
-
+                    <div className="space-35"></div>
                     <img src={bar2} alt="" />
                 </div>
             </div>
+
 
 
             <div className="card-column">
@@ -61,11 +61,11 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
 
 
                     <img src={verification} alt="verification" />
-                    <div className="img-overlay-2">
-
-                        <img src={tick} alt="tick" />
-
+                    <div className="overlay-tick">
+                    <img src={tick} alt="tick" />
                     </div>
+
+
                     <div className="card-column">
                         <div className="verified">
                             Verified

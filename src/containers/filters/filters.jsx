@@ -1,8 +1,6 @@
 import React from "react";
 import './filters.css';
 import { FilterCard } from "../../components";
-import ClearButton from "../../components/buttons/clear_button";
-import ColorButton from "../../components/buttons/color_button";
 import img1 from '../../assets/filter_1.jpeg';
 import img2 from '../../assets/filter_2.jpeg';
 import img3 from '../../assets/filter_3.jpeg';
@@ -15,10 +13,8 @@ import avatar3 from '../../assets/avatar_3.png';
 import avatar4 from '../../assets/avatar_4.png';
 import avatar5 from '../../assets/avatar_5.png';
 import avatar6 from '../../assets/avatar_6.png';
-import LongColorButton2 from "../../components/buttons/long-button-2";
-import ClearButton2 from "../../components/buttons/long-button-2";
-import LongColorButton from "../../components/buttons/long-button";
-import LongClearButton from "../../components/buttons/long-clear";
+import colorbutton from "../../assets/long-button-2.png";
+import clearbutton from "../../assets/long-clear.png";
 
 const Filter = () => {
     const handleClick = () => {
@@ -35,12 +31,41 @@ const Filter = () => {
                     <div className="gradient-text">games</div>
                 </div>
             </div>
-       
+
             <div className="filter-row">
-                <LongColorButton2 onClick={handleClick} text={'Newest Games'} />
-                <LongClearButton onClick={handleClick} text={'Latest Games'} />
-                <LongClearButton onClick={handleClick} text={'Fight Games'} />
-                <LongClearButton onClick={handleClick} text={'Sport Games'} />
+
+
+                <div className="button-container">
+                    <img src={colorbutton} alt="colorbtn" />
+                    <div className="overlay">
+                        NEWEST GAMES
+                    </div>
+                </div>
+
+
+                <div className="button-container">
+                    <img src={clearbutton} alt="colorbtn" />
+                    <div className="overlay">
+                        LATEST GAMES
+                    </div>
+                </div>
+
+
+                <div className="button-container">
+                    <img src={clearbutton} alt="colorbtn" />
+                    <div className="overlay">
+                        FIGHT GAMES
+                    </div>
+                </div>
+
+
+                <div className="button-container">
+                    <img src={clearbutton} alt="colorbtn" />
+                    <div className="overlay">
+                        SPORT GAMES
+                    </div>
+                </div>
+
             </div>
             <div className="height-spacing"></div>
             <div className="filter-row">
@@ -62,12 +87,9 @@ const Filter = () => {
             </div>
 
 
-            
+
         </div>
     );
 }
 
 export default Filter;
-
-/*
-/>*/
