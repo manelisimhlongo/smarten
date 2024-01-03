@@ -2,7 +2,7 @@
 import React from 'react';
 import './navbar.css';
 //import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg';
 import basket from '../../assets/basket.png';
 import circle from '../../assets/basket_circle.png';
 
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className='navbar-logo'>
                     <img src={logo} alt="logo" />
                 </div>
-
+                <div className='space'></div>
                 <div className="navbar-logo-text">
                     <p> board</p>
                 </div>
@@ -25,7 +25,6 @@ const Navbar = () => {
 
             <div className="navbar-links">
                 <div className="navbar-links_container">
-
                     <p> Products </p>
                     <p>Apps & Games</p>
                     <p> Features</p>

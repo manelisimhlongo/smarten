@@ -5,6 +5,8 @@
     align-items: center;
     gap: 213px;
     padding: 2rem 6rem;
+
+
 }
 
 .navbar-logo-text {
@@ -13,8 +15,7 @@
     font-size: 30.767px;
     font-style: normal;
     font-weight: 800;
-    line-height: 110.6%;
-    /* 34.028px */
+    line-height: 34.028px;
     letter-spacing: 1.231px;
 }
 
@@ -71,7 +72,7 @@
 .navbar-circle {
     position: absolute;
     top: 60px;
-    right: 82px;
+    right: 95px;
     width: 6px;
     height: 6px;
     flex-shrink: 0;
@@ -144,6 +145,10 @@
     outline: none;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.space {
+    width: 10px;
 }
 
 

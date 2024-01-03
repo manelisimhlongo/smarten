@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="banner-section">
             <div className="page-img"></div>
             <div className="banner-blur"></div>
-            <Navbar />
+            <Navbar/>
             <div className="banner-heading-content">
                 <div className="banner-heading-text">let your </div>
                 <div className="banner-row">
@@ -43,7 +43,13 @@ const Banner = () => {
                 </div>
 
 
+
             </div>
+
+            <div className="space-10h"></div>
+            <div className="space-10h"></div>
+            <div className="space-10h"></div>
+
             <div className="banner-row">
                 <div className="space-180"></div>
                 <div className="banner-columns">
@@ -69,6 +75,12 @@ const Banner = () => {
 
                 </div>
             </div>
+
+            <div className="space-10h"></div>
+
+            <div className="space-10h"></div>
+
+
 
             <div className="banner-bar">
                 <div className="row">
