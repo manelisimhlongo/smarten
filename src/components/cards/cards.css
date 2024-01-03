@@ -5,7 +5,7 @@
     border-radius: 10px;
     border: 1px solid #000;
     background: url('../../assets/filter-bg.png');
-     box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
     backdrop-filter: blur(25px);
 
 }
@@ -16,6 +16,14 @@
     flex: 1;
     display: flex;
     justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+
 }
 
 .card-row {
@@ -148,7 +156,8 @@
     width: 607px;
     height: 388px;
     flex-shrink: 0;
-    border-radius: 10px;/*
+    border-radius: 10px;
+    /*
     border: 1px solid #000;*/
     background: lightgray 0% 0% / 100px 100px repeat, linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(217, 217, 217, 0.04) 100%);
     box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
@@ -182,8 +191,7 @@
     font-size: 14.65px;
     font-style: normal;
     font-weight: 500;
-    line-height: 110.6%;
-    /* 16.203px */
+    line-height: 16.203px;
     letter-spacing: 0.513px;
     text-transform: capitalize;
     padding-right: 40px;
@@ -197,4 +205,9 @@
 .verification-image {
     background: url("../../assets/verification.svg"), url("../../assets/tick.svg");
 
+}
+
+.container {
+    width: 100px;
+    height: 100px;
 }

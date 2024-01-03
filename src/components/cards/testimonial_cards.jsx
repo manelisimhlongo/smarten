@@ -38,24 +38,29 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
                     <div className="space-35"></div>
                     <div className="avatar-img"> <img src={img} alt="" /> </div>
                     <div className="small-space-width"></div>
-                    <div className="card-column">
+                    <div className="column">
                         <div className="sub-text">{name}</div>
                         <div className="small-space"></div>
                         <div className="sub-sub-text">{subtext}</div>
                     </div>
+                    <div className="space-35"></div>
+                    <div className="space-35"></div>
+                    <div className="space-35"></div>
 
-                    <div className="row">
-                        <div className="container">
+                    <div className="container">
+                        <div className="row">
+                            <img src={verification} alt="verification" />
+                            <div className="card-column">
+                                <div className="verified">
+                                    Verified
+                                </div>
+                            </div>
 
-                            <img src={verification} alt="verification" >
-
-
-                            </img>
                         </div>
-                        <div className="verified">
-                            Verified
-                        </div>
+
                     </div>
+
+
 
                 </div>
             </div>

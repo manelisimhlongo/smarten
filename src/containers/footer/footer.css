@@ -47,6 +47,20 @@
     letter-spacing: 0.64px;
 }
 
+.footer-text-options {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110.6%;
+    /* 19.908px */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+
+
 .footer-heading {
     color: #FFF;
     font-family: Lato;
@@ -95,6 +109,7 @@
     flex-shrink: 0;
     flex: 1;
     display: flex;
+    justify-content: center;
 }
 
 .column {
@@ -108,4 +123,26 @@
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.space-width {
+    width: 150px;
+}
+
+.container {
+    width: 200px;
+    height: 300px;
+}
+
+.container-logo{
+    width: 200px;
+}
+
+.container-heading {
+    width: 400px;
+    height: 400px;
+}
+
+.spacing{
+    height: 30px;
 }
