@@ -20,13 +20,12 @@
 }
 
 
-
-
 .banner-bar-row {
     display: inline-flex;
     align-items: flex-start;
     flex-direction: row;
     gap: 51px;
+    height: 90px;
     border: 1px solid #000;
     background: url('../../assets/rectangle.png');
     box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
@@ -145,4 +144,8 @@
 
 .spacing{
     height: 30px;
+}
+
+.space-10h{
+    height: 10px;
 }

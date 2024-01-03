@@ -10,7 +10,11 @@ const Footer = () => {
 
 
             <div className="banner-bar-row">
-                <NormalBanner />
+                <div className="column">
+                    <div className="space-10h"></div>
+                    <div className="space-10h"></div>
+                    <NormalBanner />
+                </div>
             </div>
             <div className="content">
                 <div className="row">
