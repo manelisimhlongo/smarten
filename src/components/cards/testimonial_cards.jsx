@@ -1,7 +1,7 @@
 import React from "react";
 import './cards.css';
 import stars from '../../assets/stars.svg';
-//import tick from '../../assets/tick.svg';
+import tick from '../../assets/tick.svg';
 import verification from '../../assets/verification.svg';
 import bar1 from '../../assets/testimonial-bar1.png';
 import bar2 from '../../assets/testimonial-bar2.png';
@@ -57,6 +57,11 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
 
                     <div className="container">
                         <div className="row">
+
+                            <div className="img-overlay-2">
+
+                                <img src={tick} alt="" />
+                            </div>
                             <img src={verification} alt="verification" />
                             <div className="card-column">
                                 <div className="verified">
