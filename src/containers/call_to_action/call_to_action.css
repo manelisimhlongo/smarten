@@ -100,7 +100,7 @@
 
 .cta-image img {
     width: 725px;
-    height: 600px;
+    height: 650px;
     flex-shrink: 0;
     background-size: auto;
     align-items: start;
@@ -118,3 +118,13 @@
     height: 20px;
 }
 
+.space-height-10h {
+    height: 10px;
+}
+
+.img-overlay{
+    position: absolute;
+    top: -95px;
+    left: 10px;
+
+}
