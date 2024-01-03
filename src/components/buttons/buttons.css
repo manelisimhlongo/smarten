@@ -1,12 +1,27 @@
-
 .head-text {
     position: relative;
 }
 
 
 .text-on-image {
-    position: absolute;
-    right: 25%;
-    left: 25%;
-    bottom: 40%;
+    position: 'absolute';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: 'center';
+    align-items: 'center';
+
+}
+
+.button-text {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110.6%;
+    /* 19.908px */
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
 }

@@ -87,7 +87,7 @@
     height: 417.931px;
     flex-shrink: 0;
     border-radius: 11.222px;
-    background:   url('../../assets/carousel-bg.png');
+    background: url('../../assets/carousel-bg.png');
 }
 
 
@@ -97,17 +97,10 @@
     flex-shrink: 0;
     border-radius: 11.222px;
     border: 1.122px solid var(--1, #000);
-    background-image: url('../../assets/carousel-bg.png');
+    background-image: url('../../assets/game_couresel_2.jpeg');
 }
 
-.carousel-row {
-    flex-direction: row;
-    flex-shrink: 0;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    white-space: 10px;
-}
+
 
 
 .carousel-row-text {
@@ -164,4 +157,37 @@
 
 .space-height {
     height: 15px;
+}
+
+.img-overlay-1 {
+    position: absolute;
+    right: 200px;
+    top: 0px;
+}
+
+.img-overlay-2 {
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+
+.img-overlay-3 {
+    position: absolute;
+    right: 200px;
+    top: 0px;
+    background: url('../../assets/carousel-3.svg');
+}
+
+.img-overlay-4 {
+    position: absolute;
+    right: 200px;
+    top: 0px;
+    background: url('../../assets/carousel-1.svg');
+}
+
+.img-overlay-5 {
+    position: absolute;
+    right: 200px;
+    top: 0px;
+    background: url('../../assets/carousel-1.svg');
 }

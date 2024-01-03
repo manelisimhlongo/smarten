@@ -15,6 +15,10 @@ import avatar3 from '../../assets/avatar_3.png';
 import avatar4 from '../../assets/avatar_4.png';
 import avatar5 from '../../assets/avatar_5.png';
 import avatar6 from '../../assets/avatar_6.png';
+import LongColorButton2 from "../../components/buttons/long-button-2";
+import ClearButton2 from "../../components/buttons/long-button-2";
+import LongColorButton from "../../components/buttons/long-button";
+import LongClearButton from "../../components/buttons/long-clear";
 
 const Filter = () => {
     const handleClick = () => {
@@ -33,10 +37,10 @@ const Filter = () => {
             </div>
        
             <div className="filter-row">
-                <ColorButton onClick={handleClick} text={'Newest Games'} />
-                <ClearButton onClick={handleClick} text={'Latest Games'} />
-                <ClearButton onClick={handleClick} text={'Fight Games'} />
-                <ClearButton onClick={handleClick} text={'Sport Games'} />
+                <LongColorButton2 onClick={handleClick} text={'Newest Games'} />
+                <LongClearButton onClick={handleClick} text={'Latest Games'} />
+                <LongClearButton onClick={handleClick} text={'Fight Games'} />
+                <LongClearButton onClick={handleClick} text={'Sport Games'} />
             </div>
             <div className="height-spacing"></div>
             <div className="filter-row">

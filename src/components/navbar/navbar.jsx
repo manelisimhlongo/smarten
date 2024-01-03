@@ -19,13 +19,13 @@ import basket from '../../assets/basket.png';
 }*/
 
 const Navbar = () => {
-  /*  const divStyle = {
-        backgroundColor: 'var(--1, lightgray)',
-        backgroundSize: '50% 50%',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-    };*/
-   // const [toggleMenu, setToggleMenu] = useState(false);
+    /*  const divStyle = {
+          backgroundColor: 'var(--1, lightgray)',
+          backgroundSize: '50% 50%',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+      };*/
+    // const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <div className="navbar">
             <div className="navbar-links">
@@ -43,6 +43,7 @@ const Navbar = () => {
 
 
                 <div className="navbar-links_container">
+
                     <p><a href="#products"> Products</a> </p>
                     <p><a href="#apps"> Apps & Games</a> </p>
                     <p><a href="#features"> Features</a> </p>

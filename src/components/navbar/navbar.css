@@ -29,19 +29,15 @@
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    max-width: max-content;
 
 
 }
 
-.navbar-text {
-    color: #FFF;
 
-    font-family: Ondo;
-    font-size: 30.767px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 34.028px;
-    letter-spacing: 1.231px;
+
+.navbar-container-1 {
+width: 150px;
 }
 
 .navbar-logo {

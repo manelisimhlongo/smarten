@@ -79,22 +79,9 @@ const Banner = () => {
                         <div className="space-10h"></div>
                         <NormalBanner />
                     </div>
-
-
                 </div>
             </div>
-
         </div>
-
-
-
-
-
-
-
-
-
-
     );
 }
 

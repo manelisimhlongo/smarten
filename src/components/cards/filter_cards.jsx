@@ -1,7 +1,7 @@
 
 import React from "react";
 import './cards.css';
-import ColorButton from "../buttons/color_button";
+import LongColorButton from "../buttons/long-button";
 
 const FilterCard = ({ img, mainImg, subtext, subsubtext }) => {
     return (
@@ -33,7 +33,7 @@ const FilterCard = ({ img, mainImg, subtext, subsubtext }) => {
                 </div>
                 <div className="space-20"></div>
                 <div className="row">
-                    <ColorButton text={'Live Demo'} />
+                    <LongColorButton text={'Live Demo'} />
                 </div>
 
             </div>
