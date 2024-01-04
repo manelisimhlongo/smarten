@@ -242,9 +242,9 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+    background-color: transparent;
 }
 
 .button-container {
     position: relative;
-    display: inline-block;
 }

@@ -1,7 +1,5 @@
 .filter-bg {
     display: flex;
-
-
     padding: 0px 98px 0px 97px;
     flex-direction: column;
     justify-content: center;
@@ -100,10 +98,10 @@
     text-align: center;
     color: #FFF;
     font-family: Lato;
-    font-size: 13px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 800;
-    line-height: 110.6%; /* 19.908px */
+    line-height: 19.908px;
     letter-spacing: 0.72px;
     text-transform: uppercase;
     height: 21.667px;
@@ -113,5 +111,4 @@
 
 .button-container {
     position: relative;
-    display: inline-block;
 }

@@ -83,12 +83,18 @@
 }
 
 .main-image {
-    width: 658.795px;
+    width: 690px;
     height: 417.931px;
     flex-shrink: 0;
     border-radius: 11.222px;
+    background-repeat: no-repeat;
     background: url('../../assets/carousel-bg.png');
+
 }
+
+
+
+
 
 
 .forward-image {
@@ -100,8 +106,15 @@
     background-image: url('../../assets/game_couresel_2.jpeg');
 }
 
+.custom-row {
+    gap: 40px;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 
-
+}
 
 .carousel-row-text {
     flex-direction: row;
@@ -109,8 +122,6 @@
     flex: 1;
     display: flex;
 }
-
-
 
 .button-text {
     color: #FFF;
@@ -147,37 +158,40 @@
     height: 15px;
 }
 
-.img-overlay-1 {
+.img-overlay-left {
     position: absolute;
-    right: 200px;
-    top: 0px;
+    left: 345px;
+    top: 1175px;
 }
 
-.img-overlay-2 {
+.img-overlay-right {
     position: absolute;
-    right: 200px;
-    top: 10px;
+    right: 385px;
+    top: 1175px;
 }
 
-.img-overlay-3 {
+.img-overlay-topleft {
     position: absolute;
-    right: 200px;
-    top: 0px;
-    background: url('../../assets/carousel-3.svg');
+    left: 385px;
+    top: 1050px;
 }
 
-.img-overlay-4 {
+.img-overlay-topright {
     position: absolute;
-    right: 200px;
-    top: 0px;
-    background: url('../../assets/carousel-1.svg');
+    right: 415px;
+    top: 1050px;
 }
 
-.img-overlay-5 {
+.main-image-overlay {
     position: absolute;
-    right: 200px;
-    top: 0px;
-    background: url('../../assets/carousel-1.svg');
+    top: 1040px;
+    left: 370px;
+}
+
+.main-image-overlay img {
+
+    width: 660px;
+    height: 400px;
 }
 
 
@@ -186,7 +200,9 @@
     display: inline-block;
 }
 
-.text-overlay{
+
+
+.text-overlay {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -194,4 +210,19 @@
     text-align: center;
     flex-direction: column;
     justify-content: center;
+}
+
+.container-mainImage-exterioritems {
+    height: 70px;
+    width: 20px;
+}
+
+.container-mainImage-exterioritems img {
+    height: 16px;
+    width: 16px;
+}
+
+.container-mainImage-interioritems {
+    height: 100px;
+    width: 20px;
 }

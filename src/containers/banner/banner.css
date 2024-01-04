@@ -63,8 +63,8 @@
     position: absolute;
     width: 100%;
     height: 610px;
-    background: url('../../assets/dashboard_image.png') lightgray no-repeat center center fixed;
-    background-size: contain;
+    background: url('../../assets/dashboard_image.png') center center fixed;
+    background-size: cover;
     mix-blend-mode: color-dodge;
 
 

@@ -13,13 +13,11 @@ const FilterCard = ({ img, mainImg, subtext, subsubtext }) => {
                         <img src={mainImg} alt="mainImage" />
                     </div>
                 </div>
-
                 <div className="space-30"></div>
                 <div className="card-row">
                     <div className="space-25"></div>
                     <div className="heading-text">Core Philosophies</div>
                 </div>
-
                 <div className="space-18"></div>
                 <div className="card-row">
                     <div className="space-25"></div>
@@ -38,14 +36,7 @@ const FilterCard = ({ img, mainImg, subtext, subsubtext }) => {
 
                         <div className="overlay"> Live Demo </div>
                     </div>
-
-
-
                 </div>
-
-
-
-
             </div>
         </div>
     );
