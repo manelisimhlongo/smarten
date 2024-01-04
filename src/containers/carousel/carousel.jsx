@@ -18,12 +18,16 @@ import carouselItem13 from '../../assets/carousel-13.svg';
 import carouselItem14 from '../../assets/carousel-14.svg';
 import carouselItem15 from '../../assets/carousel-15.png';
 import carouselItem16 from '../../assets/carousel-16.svg';
+import carouselItem17 from '../../assets/carousel-17.svg';
+import carouselItem18 from '../../assets/carousel-18.svg';
+import carouselItem19 from '../../assets/carousel-19.png';
 import mainImg from '../../assets/game_couresel_1.jpeg';
 
 const Carousel = () => {
     return (
         <div className="carousel-background">
             <div className="space-height"></div>
+
             <div className="carousel-row">
                 <div className="carousel-heading-content">
                     <div className="carousel-row">
@@ -50,7 +54,8 @@ const Carousel = () => {
                 </div>
             </div>
 
-
+            <div className="space-height"></div>
+            <div className="space-height"></div>
             <div className="custom-row">
 
 
@@ -67,9 +72,28 @@ const Carousel = () => {
                     </div>
 
                     {/*bottom container with text */}
+                    <div className="main-image-bottom-overlay1">
+
+                        <img src={carouselItem19} alt="" />
+                    </div>
+
+                    {/*bottom container with text */}
                     <div className="main-image-bottom-overlay">
 
                         <img src={carouselItem6} alt="" />
+                        <div className="text-overlay">
+
+                            <div className="center-text">
+                                sneak peeks
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* */}
+                    <div className="main-image-topcenter-overlay">
+                        <div className="container-mainImage-interioritems">
+                            <img src={carouselItem11} alt="item" />
+                        </div>
                     </div>
 
 
@@ -111,7 +135,14 @@ const Carousel = () => {
                             </div>
                         </div>
 
-                        {/*rop right item */}
+                        {/* line in the bottom left corner*/}
+                        <div className="img-overlay-leftcorner">
+                            <div className="container-mainImage-interioritems">
+                                <img src={carouselItem3} alt="item" />
+                            </div>
+                        </div>
+
+                        {/*top right item */}
                         <div className="img-overlay-topright">
                             <div className="container-mainImage-interioritems">
                                 <img src={carouselItem} alt="item" />
@@ -129,6 +160,13 @@ const Carousel = () => {
                         <div className="img-overlay-bottomright">
                             <div className="container-mainImage-interioritems">
                                 <img src={carouselItem16} alt="item" />
+                            </div>
+                        </div>
+
+                        {/* line in the bottom right corner*/}
+                        <div className="img-overlay-rightcorner">
+                            <div className="container-mainImage-interioritems">
+                                <img src={carouselItem8} alt="item" />
                             </div>
                         </div>
 

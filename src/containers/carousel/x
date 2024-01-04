@@ -1,18 +1,7 @@
 
 
-{/* */}
-<div className="img-overlay-topleft">
-    <div className="container-mainImage-interioritems">
-        <img src={carouselItem3} alt="item" />
-    </div>
-</div>
 
-{/* */}
-<div className="img-overlay-topright">
-    <div className="container-mainImage-interioritems">
-        <img src={carouselItem8} alt="item" />
-    </div>
-</div>
+
 {/* */}
 <div className="main-image-center-overlay">
     <div className="container-mainImage-interioritems">
