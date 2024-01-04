@@ -77,6 +77,7 @@
     width: 451.136px;
     height: 366.969px;
     flex-shrink: 0;
+    overflow: hidden;
     border-radius: 11.222px;
     border: 1.122px solid var(--1, #000);
     background: url('../../assets/game_couresel_3.jpeg'), lightgray 50% / cover no-repeat;
@@ -91,6 +92,16 @@
     background: url('../../assets/carousel-bg.png');
 
 }
+
+.main-container {
+    width: 700;
+    height: 450;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    align-content: center;
+}
+
 
 
 
@@ -160,38 +171,73 @@
 
 .img-overlay-left {
     position: absolute;
-    left: 345px;
+    left: 370px;
     top: 1175px;
 }
 
 .img-overlay-right {
     position: absolute;
-    right: 385px;
+    right: 368px;
     top: 1175px;
 }
 
 .img-overlay-topleft {
     position: absolute;
-    left: 385px;
+    left: 400px;
     top: 1050px;
 }
 
 .img-overlay-topright {
     position: absolute;
-    right: 415px;
+    right: 390px;
     top: 1050px;
 }
 
 .main-image-overlay {
     position: absolute;
     top: 1040px;
-    left: 370px;
+    left: 392px;
 }
 
 .main-image-overlay img {
-
     width: 660px;
     height: 400px;
+}
+
+.main-image-center-overlay {
+    position: absolute;
+    top: 1040px;
+    left: 350px;
+}
+
+.img-overlay-topleft-center {
+    position: absolute;
+    left: 400px;
+    top: 1150px;
+}
+
+.img-overlay-bottomleft {
+    position: absolute;
+    left: 400px;
+    top: 1365px;
+}
+
+.img-overlay-bottomright {
+    position: absolute;
+    right: 375px;
+    top: 1365px;
+}
+
+.img-overlay-topright-center {
+    position: absolute;
+    right: 390px;
+    top: 1155px;
+}
+
+.main-image-bottom-overlay {
+    position: absolute;
+    top: 1400px;
+    left: 580px;
 }
 
 
@@ -199,8 +245,6 @@
     position: relative;
     display: inline-block;
 }
-
-
 
 .text-overlay {
     position: absolute;

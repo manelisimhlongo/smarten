@@ -1,0 +1,52 @@
+
+
+{/* */}
+<div className="img-overlay-topleft">
+    <div className="container-mainImage-interioritems">
+        <img src={carouselItem3} alt="item" />
+    </div>
+</div>
+
+{/* */}
+<div className="img-overlay-topright">
+    <div className="container-mainImage-interioritems">
+        <img src={carouselItem8} alt="item" />
+    </div>
+</div>
+{/* */}
+<div className="main-image-center-overlay">
+    <div className="container-mainImage-interioritems">
+        <img src={carouselItem9} alt="item" />
+    </div>
+</div>
+{/* */}
+<div className="img-overlay-topright">
+    <div className="container-mainImage-interioritems">
+        <img src={carouselItem10} alt="item" />
+    </div>
+</div>
+{/* */}
+<div className="img-overlay-topright">
+    <div className="container-mainImage-interioritems">
+        <img src={carouselItem11} alt="item" />
+    </div>
+</div>
+{/* */}
+<div className="img-overlay-topright">
+    <div className="container-mainImage-interioritems">
+        <img src={carouselItem12} alt="item" />
+    </div>
+</div>
+{/* */}
+<div className="img-overlay-topright">
+    <div className="container-mainImage-interioritems">
+        <img src={carouselItem13} alt="item" />
+    </div>
+</div>
+{/* */}
+<div className="img-overlay-topright">
+    <div className="container-mainImage-interioritems">
+        <img src={carouselItem14} alt="item" />
+    </div>
+</div>
+{/* */}
