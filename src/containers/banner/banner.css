@@ -40,11 +40,12 @@
     flex-shrink: 0;
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     margin-right: 5rem;
-    background: #2D1E6B
+    background: #2D1E6B;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-blur {

@@ -12,8 +12,9 @@ const Testimonial = () => {
 
             <div className="space-height"></div>
             <div className="row">
-
-                <NormalBanner />
+                <div className="column">
+                    <NormalBanner />
+                </div>
             </div>
 
             <div className="space-height"></div>
