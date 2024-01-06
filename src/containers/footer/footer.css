@@ -12,9 +12,6 @@
     padding: 0px 98px 0px 97px;
     justify-content: center;
     align-items: center;
-
-  
-
 }
 
 .logo-img {
@@ -23,7 +20,6 @@
     flex-shrink: 0;
     fill: var(--1, lightgray 50% / cover no-repeat);
 }
-
 
 .banner-bar-row {
     display: inline-flex;
@@ -39,20 +35,24 @@
 
 }
 
-.banner-text-overlay{
-    align-items: center;
-    justify-content: center;
-
+.banner-bar-row img{
+    width: 36px;
+    height: 36px;
+    fill: var( linear-gradient(58deg, #6542F4 34.78%, #F976FF 52.55%, #B50098 70.32%));
 }
 
+.banner-text-overlay{
+    position: absolute;
+    top: 25%;
+
+}
 
 .footer-overlay{
     position: absolute;
     top: -50px;
 }
 
-
-.footer-container {
+.footer-container2 {
     height: 150px;
     width: 100%;
     flex-direction: row;
@@ -81,8 +81,6 @@
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-
-
 
 .footer-heading {
     color: #FFF;
@@ -174,7 +172,3 @@
     height: 10px;
 }
 
-banner-text-overlay{
-
-    top: 25%;
-}

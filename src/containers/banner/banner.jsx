@@ -7,6 +7,7 @@ const Banner = () => {
 
 
     return (
+
         <div className="banner-section">
             <div className="page-img"></div>
             <div className="banner-blur"></div>
@@ -105,12 +106,13 @@ const Banner = () => {
             <div className="banner-bar">
                 <div className="banner-row">
                     <div className="banner-text-overlay">
-
                         <NormalBanner />
                     </div>
                 </div>
             </div>
         </div>
+
+
     );
 }
 

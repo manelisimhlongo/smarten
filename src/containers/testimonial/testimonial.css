@@ -19,6 +19,14 @@
     backdrop-filter: blur(25px);
 }
 
+.testimonial-column img{
+
+        width: 36px;
+        height: 36px;
+        fill: var( linear-gradient(58deg, #6542F4 34.78%, #F976FF 52.55%, #B50098 70.32%));
+
+}
+
 
 
 .banner-bar-row {
