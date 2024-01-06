@@ -18,15 +18,6 @@
     justify-content: center;
 }
 
-.column {
-    flex-direction: column;
-    align-content: flex-start;
-    flex-shrink: 0;
-    flex: 1;
-    display: flex;
-
-}
-
 .card-row {
     flex-direction: row;
     flex-shrink: 0;
@@ -42,7 +33,7 @@
     justify-content: center;
 }
 
-.row {
+.centered-row {
     flex-direction: row;
     flex-shrink: 0;
     flex: 1;
@@ -69,7 +60,6 @@
     background: lightgray 50% / cover no-repeat;
 }
 
-
 .image-container img {
     height: 100%;
     width: 100%;
@@ -80,7 +70,6 @@
 .avatar-img img {
     height: 100%;
     width: 100%;
-
     border-radius: 53px;
 }
 
@@ -121,28 +110,28 @@
     height: 8px;
 }
 
-.small-space-width {
+.space-10w {
     width: 10px;
 }
 
-.space-25 {
+.space-25w {
     width: 25px;
 }
 
-.space-35 {
+.space-35w {
     width: 35px;
 }
 
 
-.space-18 {
+.space-18h {
     height: 18px;
 }
 
-.space-30 {
+.space-30h {
     height: 30px;
 }
 
-.space-20 {
+.space-20h {
     height: 20px;
 }
 
@@ -211,16 +200,10 @@
     height: 100px;
 }
 
-.img-overlay-0 {
+.overlay-0 {
     position: absolute;
     right: 71px;
     top: -50px;
-}
-
-.overlay-tick {
-    position: absolute;
-    right: 150px;
-    bottom: 91.5px;
 }
 
 .overlay {
@@ -243,6 +226,12 @@
     justify-content: center;
     flex-shrink: 0;
     background-color: transparent;
+}
+
+.overlay-tick {
+    position: absolute;
+    right: 150px;
+    bottom: 91.5px;
 }
 
 .button-container {

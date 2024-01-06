@@ -13,10 +13,10 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
 
 
 
-            <div className="img-overlay-0">
+            <div className="overlay-0">
                 <div className="row">
                     <img src={bar1} alt="" />
-                    <div className="space-35"></div>
+                    <div className="space-35w"></div>
                     <img src={bar2} alt="" />
                 </div>
             </div>
@@ -34,30 +34,30 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
                         {text}
                     </div>
                 </div>
-                <div className="space-18"></div>
+                <div className="space-18h"></div>
                 <div className="row">
                     <div className="testimonial-card-bar"></div>
                 </div>
 
-                <div className="space-18"></div>
+                <div className="space-18h"></div>
 
 
                 <div className="card-row">
-                    <div className="space-35"></div>
+                    <div className="space-35w"></div>
                     <div className="avatar-img"> <img src={img} alt="img" /> </div>
-                    <div className="small-space-width"></div>
+                    <div className="space-10w"></div>
 
-                    <div className="space-25"></div>
+                    <div className="space-25w"></div>
                     <div className="card-column">
                         <div className="sub-text">{name}</div>
                         <div className="small-space"></div>
                         <div className="sub-sub-text">{subtext}</div>
                     </div>
-                    <div className="space-35"></div>
-                    <div className="space-35"></div>
-                    <div className="space-35"></div>
-                    <div className="space-35"></div>
-                    <div className="space-35"></div>
+                    <div className="space-35w"></div>
+                    <div className="space-35w"></div>
+                    <div className="space-35w"></div>
+                    <div className="space-35w"></div>
+                    <div className="space-35w"></div>
 
 
                     <img src={verification} alt="verification" />
