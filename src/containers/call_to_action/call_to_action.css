@@ -78,7 +78,6 @@
     flex-shrink: 0;
     flex: 1;
     display: flex;
-
 }
 
 .cta-column {
@@ -89,11 +88,9 @@
     justify-content: center;
 }
 
-
 .head-text {
     position: relative;
 }
-
 
 .text-on-image {
     position: absolute;
@@ -110,19 +107,19 @@
     align-items: start;
 }
 
-.space-width {
+.space-20w {
     width: 20px;
 }
 
-.space-width-10 {
+.space-10w {
     width: 10px;
 }
 
-.space-height {
+.space-20h {
     height: 20px;
 }
 
-.space-height-10h {
+.space-10h {
     height: 10px;
 }
 
@@ -130,7 +127,6 @@
     position: absolute;
     top: -95px;
     left: 10px;
-
 }
 
 .overlay-buttontext {
@@ -138,7 +134,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
     text-align: center;
     flex-direction: column;
     justify-content: center;
