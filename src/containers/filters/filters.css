@@ -21,7 +21,6 @@
     font-style: normal;
     font-weight: 800;
     line-height: 116.6%;
-    /* 76.956px */
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
@@ -48,15 +47,15 @@
     justify-content: center;
 }
 
-.space {
+.space-20w {
     width: 20px;
 }
 
-.spacing {
+.space-27w {
     width: 27px;
 }
 
-.height-spacing {
+.space-86h {
     height: 86px;
 }
 
@@ -88,7 +87,6 @@
     align-items: flex-start;
     flex-direction: row;
     gap: 51px;
-
 }
 
 .overlay {

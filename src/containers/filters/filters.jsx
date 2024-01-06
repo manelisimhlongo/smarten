@@ -20,12 +20,12 @@ const Filter = () => {
 
     return (
         <div className="filter-bg">
-            <div className="height-spacing"></div>
+            <div className="space-86h"></div>
             <div className="filter-heading">
                 <div className="text">Welcome to the</div>
                 <div className="filter-row">
                     <div className="text">top</div>
-                    <div className="space"></div>
+                    <div className="space-20w"></div>
                     <div className="gradient-text">games</div>
                 </div>
             </div>
@@ -65,22 +65,22 @@ const Filter = () => {
                 </div>
 
             </div>
-            <div className="height-spacing"></div>
+            <div className="space-86h"></div>
             <div className="filter-row">
                 <FilterCard img={avatar1} subsubtext={'Gillette'} subtext={'Cameron Williamson'} mainImg={img1} />
-                <div className="spacing"></div>
+                <div className="space-27w"></div>
                 <FilterCard img={avatar2} subsubtext={'Louis Vuitton'} subtext={'Dianne Russell'} mainImg={img2} />
-                <div className="spacing"></div>
+                <div className="space-27w"></div>
                 <FilterCard img={avatar3} subsubtext={'MasterCard'} subtext={'Jane Cooper'} mainImg={img3} />
 
             </div>
-            <div className="height-spacing"></div>
+            <div className="space-86h"></div>
             <div className="filter-row">
 
                 <FilterCard img={avatar4} subsubtext={'The Walt Disney Company'} subtext={'Cody Fisher'} mainImg={img4} />
-                <div className="spacing"></div>
+                <div className="space-27w"></div>
                 <FilterCard img={avatar5} subsubtext={'Gillette'} subtext={'Wade Warren'} mainImg={img5} />
-                <div className="spacing"></div>
+                <div className="space-27w"></div>
                 <FilterCard img={avatar6} subsubtext={"L'Oréal"} subtext={'Robert Fox'} mainImg={img6} />
             </div>
 
