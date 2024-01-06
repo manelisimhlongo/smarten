@@ -38,7 +38,7 @@ const Footer = () => {
                                         A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals .
                                     </div>
                                 </div>
-                                <div className="space-height"></div>
+                                <div className="space-121h"></div>
                                 <div className="copyright">
                                     © Copyright 2023, All Rights Reserved by board
                                 </div>
@@ -50,11 +50,11 @@ const Footer = () => {
 
 
                                 <div className="footer-heading"> company</div>
-                                <div className="spacing"></div>
+                                <div className="space-30h"></div>
                                 <div className="footer-text-options"> products </div>
-                                <div className="spacing"></div>
+                                <div className="space-30h"></div>
                                 <div className="footer-text-options"> apps & games </div>
-                                <div className="spacing"></div>
+                                <div className="space-30h"></div>
                                 <div className="footer-text-options"> features </div>
                             </div>
                         </div>
@@ -62,11 +62,11 @@ const Footer = () => {
                         <div className="container">
                             <div className="column">
                                 <div className="footer-heading"> help </div>
-                                <div className="spacing"></div>
+                                <div className="space-30h"></div>
                                 <div className="footer-text-options"> support </div>
-                                <div className="spacing"></div>
+                                <div className="space-30h"></div>
                                 <div className="footer-text-options"> about </div>
-                                <div className="spacing"></div>
+                                <div className="space-30h"></div>
                                 <div className="footer-text-options"> contact us </div>
                             </div>
                         </div>
@@ -74,11 +74,11 @@ const Footer = () => {
                         <div className="container">
                             <div className="column">
                                 <div className="footer-heading"> resources </div>
-                                <div className="spacing"></div>
+                                <div className="space-30h"></div>
                                 <div className="footer-text-options"> youtube playlist </div>
-                                <div className="spacing"></div>
+                                <div className="space-30h"></div>
                                 <div className="footer-text-options"> how to - blog </div>
-                                <div className="spacing"></div>
+                                <div className="space-30h"></div>
                                 <div className="footer-text-options"> terms and conditions </div>
                             </div>
                         </div>

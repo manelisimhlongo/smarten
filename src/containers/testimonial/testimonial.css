@@ -19,22 +19,17 @@
     backdrop-filter: blur(25px);
 }
 
-.testimonial-column img{
-
-        width: 36px;
-        height: 36px;
-        fill: var( linear-gradient(58deg, #6542F4 34.78%, #F976FF 52.55%, #B50098 70.32%));
-
+.testimonial-column img {
+    width: 36px;
+    height: 36px;
+    fill: var(linear-gradient(58deg, #6542F4 34.78%, #F976FF 52.55%, #B50098 70.32%));
 }
-
-
 
 .banner-bar-row {
     display: inline-flex;
     align-items: flex-start;
     flex-direction: row;
     gap: 51px;
-
 }
 
 .testimonial-row {
@@ -45,15 +40,15 @@
     justify-content: center;
 }
 
-.space-width {
+.space-31w {
     width: 31px;
 }
 
-.space-height {
+.space-100h {
     height: 100px;
 }
 
-.space-height-40h {
+.space-40h {
     height: 40px;
 }
 
