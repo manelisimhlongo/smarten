@@ -161,6 +161,7 @@
     flex-shrink: 0;
     flex: 1;
     display: flex;
+    grid-row: start;
 }
 
 .column {

@@ -27,7 +27,6 @@ const Banner = () => {
             </div>
 
             <div className="row">
-                <div className="space-180"></div>
                 <div className="button-container">
                     <img src={colorbutton} alt="color" />
                     <div class='text-overlay'>
@@ -51,7 +50,6 @@ const Banner = () => {
             <div className="space-10h"></div>
 
             <div className="banner-row">
-                <div className="space-180"></div>
                 <div className="banner-columns">
                     <div className="info-container">
                         <div className="banner-extra-text">300+</div>

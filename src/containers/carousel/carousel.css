@@ -1,13 +1,13 @@
 .carousel-background {
     background: #2D1E6B;
-    width: 100%;
-    height: 906px;
     align-items: center;
     align-content: center;
     justify-content: center;
     flex-direction: column;
     display: flex;
     padding: 0px 98px 0px 97px;
+
+  width: 100vw;
 
 }
 
@@ -21,6 +21,22 @@
 
 .carousel-heading-content {
     width: 718px;
+}
+
+.c-row {
+    flex-direction: row;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.c-column {
+    flex-direction: column;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-heading {
@@ -89,6 +105,8 @@
 .main-image {
     width: 650px;
     height: 400px;
+    flex-shrink: 0;
+    color: white;
     flex-shrink: 0;
     text-align: center;
     border-radius: 11.222px;
@@ -192,26 +210,28 @@
 }
 
 .img-overlay-left {
-    position: relative;
+    position: absolute;
+    left: -30px;
+    top: 130px;
 
 }
 
 .img-overlay-right {
     position: absolute;
-    right: 368px;
-    top: 1215px;
+    right: -30px;
+    top: 130px;
 }
 
 .img-overlay-topleft {
     position: absolute;
-    left: 400px;
-    top: 1080px;
+    left: 10px;
+    top: 10px;
 }
 
 .img-overlay-topright {
     position: absolute;
-    right: 390px;
-    top: 1080px;
+    right: 10px;
+    top: 10px;
 }
 
 .main-image-overlay {
@@ -233,81 +253,85 @@
 
 .main-image-topcenter-overlay {
     position: absolute;
-    top: 1085px;
-    left: 423px;
+
 }
 
 .img-overlay-centercircle {
     position: absolute;
-    top: 1020px;
-    left: 685px;
+    top: -55px;
 }
 
 .img-overlay-centercircle2 {
     position: absolute;
-    top: 1026px;
-    left: 691px;
+    top: -50px;
 }
 
 .img-overlay-topleft-center {
     position: absolute;
-    left: 400px;
-    top: 1180px;
+    left: 10px;
+    top: 112px;
+}
+
+.img-overlay-topright-center {
+    position: absolute;
+    right: 10px;
+    top: 112px;
 }
 
 .img-overlay-leftcorner {
     position: absolute;
-    left: 410px;
-    top: 1440px;
+    left: 9px;
+    bottom: -10px;
 }
 
 .img-overlay-rightcorner {
     position: absolute;
-    right: 540px;
-    top: 1440px;
+    right: 9px;
+    bottom: -10px;
 }
 
 .img-overlay-rightcorner img,
 .img-overlay-leftcorner img {
-    width: 161.548px;
+    width: 180px;
 }
 
 .img-overlay-bottomleft {
     position: absolute;
-    left: 400px;
-    top: 1400px;
+    left: 9px;
+    bottom: 3px;
 }
-
 
 .img-overlay-bottom-center {
     position: absolute;
-    left: 578px;
-    top: 1425px;
+
+    bottom: 50px;
     justify-content: space-between;
 
 }
 
 .img-overlay-bottom-center img {
+    flex: 1;
+    flex-direction: row;
     width: 12px;
 
 }
 
 .img-overlay-bottomright {
     position: absolute;
-    right: 376px;
-    top: 1400px;
+    right: 10px;
+    bottom: 3px;
 }
 
 .img-overlay-aboveright {
     position: absolute;
-    right: 645px;
-    top: 1053px;
+    right: 240px;
+    top: -18px;
 }
 
 .img-overlay-aboveleft {
     position: absolute;
-    left: 645px;
-    top: 1053px;
+    left: 240px;
+    top: -18px;
 }
 
 .img-overlay-aboveleft img,
@@ -317,22 +341,18 @@
     flex-shrink: 0;
 }
 
-.img-overlay-topright-center {
-    position: absolute;
-    right: 390px;
-    top: 1185px;
-}
+
 
 .main-image-bottom-overlay {
     position: absolute;
-    top: 1433px;
-    left: 573px;
+    bottom: -28px;
+    left: 180px;
 }
 
 .main-image-bottom-overlay1 {
     position: absolute;
-    top: 1430px;
-    left: 562px;
+    bottom: 1px;
+
 }
 
 .button-container {
@@ -368,8 +388,8 @@
 }
 
 .container-mainImage-exterioritems img {
-    height: 16px;
-    width: 16px;
+    height: 18px;
+    width: 20px;
 }
 
 .container-mainImage-interioritems {
@@ -384,4 +404,27 @@
 .column img {
     height: 20px;
     width: 20px;
+}
+
+
+.cta-image img {
+    width: 725px;
+    height: 650px;
+    flex-shrink: 0;
+    background-size: auto;
+    align-items: start;
+}
+
+.img-overlay {
+    position: absolute;
+    top: -95px;
+    left: 10px;
+
+}
+
+.carousel-container2 {
+    width: 650px;
+    height: 400px;
+    flex-shrink: 0;
+    backdrop-filter: blur(0px);
 }

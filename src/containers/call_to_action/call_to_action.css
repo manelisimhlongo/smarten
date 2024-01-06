@@ -10,6 +10,8 @@
     background: #2D1E6B;
     align-items: center;
     align-content: center;
+
+  width: 100vw;
 }
 
 .cta-container {
