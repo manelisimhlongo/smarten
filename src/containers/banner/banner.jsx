@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="banner-section">
             <div className="page-img"></div>
             <div className="banner-blur"></div>
-            <Navbar/>
+            <Navbar />
             <div className="banner-heading-content">
                 <div className="banner-heading-text">let your </div>
                 <div className="banner-row">
@@ -18,15 +18,26 @@ const Banner = () => {
                     <div className="banner-heading-text">mind </div>
                     <div className="space"></div>
                     <div className="banner-heading-gradient-text">explore</div>
+                    <div className="space-180"></div>
+                    <div className="space-180"></div>
+                    <div className="space-180"></div>
+                    <div className="space-180"></div>
                 </div>
                 <div className="banner-heading-text">new world</div>
             </div>
-            <div className="banner-secondary-content">
-                <div className="banner-container-text">Playing electronic games, whether through consoles, computers, mobile phones or another medium altogether. Gaming is a nuanced term that suggests regular gameplay, possibly as a hobby.  </div>
+            <div className="banner-row">
+                <div className="banner-secondary-content">
+                    <div className="banner-container-text">Playing electronic games, whether through consoles, computers, mobile phones or another medium altogether. Gaming is a nuanced term that suggests regular gameplay, possibly as a hobby.  </div>
 
+                </div>
+                <div className="space-180"></div>
+                <div className="space-180"></div>
+                <div className="space-180"></div>
+                <div className="space-180"></div>
             </div>
 
-            <div className="row">
+
+            <div className="banner-row">
                 <div className="button-container">
                     <img src={colorbutton} alt="color" />
                     <div class='text-overlay'>
@@ -42,6 +53,10 @@ const Banner = () => {
                 </div>
 
 
+                <div className="space-180"></div>
+                <div className="space-180"></div>
+                <div className="space-180"></div>
+                <div className="space-180"></div>
 
             </div>
 
@@ -72,6 +87,11 @@ const Banner = () => {
                     </div>
 
                 </div>
+
+                <div className="space-180"></div>
+                <div className="space-180"></div>
+                <div className="space-180"></div>
+                <div className="space-180"></div>
             </div>
 
             <div className="space-10h"></div>
