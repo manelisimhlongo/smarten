@@ -103,10 +103,13 @@ const Carousel = () => {
                                     </div>
 
                                     {/* top center line*/}
+                                    <div className="top-overlay">
+                                        <img src={carouselItem18} alt="item" />
+                                    </div>
+
+                                    {/* top center line*/}
                                     <div className="main-image-topcenter-overlay">
-                                        <div className="container-mainImage-interioritems">
-                                            <img src={carouselItem11} alt="item" />
-                                        </div>
+                                        <img src={carouselItem11} alt="item" />
                                     </div>
 
                                     {/* center circle above img*/}
@@ -161,11 +164,10 @@ const Carousel = () => {
                                     </div>
 
                                     {/* bottom row of slashes*/}
-                                   
 
-                                        <div className="img-overlay-bottom-center">
+                                    <div className="img-overlay-bottom-center">
 
-
+                                        <div className="c-row">
                                             <img src={carouselItem9} alt="item" />
                                             <div className="space-width"></div>
                                             <img src={carouselItem9} alt="item" />
@@ -194,12 +196,14 @@ const Carousel = () => {
                                             <img src={carouselItem10} alt="item" />
                                             <div className="space-width"></div>
                                             <img src={carouselItem10} alt="item" />
+                                        </div>
 
 
 
 
 
-                               
+
+
                                     </div>
 
 
@@ -225,7 +229,12 @@ const Carousel = () => {
 
                                         <img src={mainImg} alt="mainImg" />
 
+                                        {/*bottom container with text */}
+                                        <div className="main-image-bottom-overlay1">
 
+                                            <img src={carouselItem19} alt="" />
+
+                                        </div>
 
                                         {/*bottom container with text */}
                                         <div className="main-image-bottom-overlay">
@@ -238,6 +247,8 @@ const Carousel = () => {
                                                 </div>
                                             </div>
                                         </div>
+
+
 
 
 
