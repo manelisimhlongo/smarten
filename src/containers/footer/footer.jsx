@@ -8,14 +8,18 @@ const Footer = () => {
     return (
         <div className="footer-bg">
 
-
-            <div className="banner-bar-row">
-                <div className="column">
-                    <div className="space-10h"></div>
-                    <div className="space-10h"></div>
-                    <NormalBanner />
+            <div className="footer-container">
+                <div className="row">
+                    <div className="footer-overlay">
+                        <div className="banner-bar-row">
+                            <NormalBanner />
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+
             <div className="content">
                 <div className="row">
 
@@ -41,7 +45,6 @@ const Footer = () => {
                                     A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals .
                                 </div>
                             </div>
-                            <div className="space-height"></div>
                             <div className="copyright">
                                 © Copyright 2023, All Rights Reserved by board
                             </div>
@@ -102,3 +105,11 @@ const Footer = () => {
 }
 
 export default Footer;
+
+/**
+ *     <div className="banner-bar-row">
+
+             
+
+            </div>
+ */

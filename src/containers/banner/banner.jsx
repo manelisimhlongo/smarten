@@ -18,10 +18,12 @@ const Banner = () => {
                     <div className="banner-heading-text">mind </div>
                     <div className="space"></div>
                     <div className="banner-heading-gradient-text">explore</div>
-                    <div className="space-180"></div>
-                    <div className="space-180"></div>
-                    <div className="space-180"></div>
-                    <div className="space-180"></div>
+                    <div className="space-180w"></div>
+                    <div className="space-180w"></div>
+                    <div className="space-180w"></div>
+                    <div className="space-180w"></div>
+                    <div className="space-15w"></div>
+                    <div className="space-15w"></div>
                 </div>
                 <div className="banner-heading-text">new world</div>
             </div>
@@ -30,10 +32,10 @@ const Banner = () => {
                     <div className="banner-container-text">Playing electronic games, whether through consoles, computers, mobile phones or another medium altogether. Gaming is a nuanced term that suggests regular gameplay, possibly as a hobby.  </div>
 
                 </div>
-                <div className="space-180"></div>
-                <div className="space-180"></div>
-                <div className="space-180"></div>
-                <div className="space-180"></div>
+                <div className="space-180w"></div>
+                <div className="space-180w"></div>
+                <div className="space-180w"></div>
+                <div className="space-180w"></div>
             </div>
 
 
@@ -53,10 +55,10 @@ const Banner = () => {
                 </div>
 
 
-                <div className="space-180"></div>
-                <div className="space-180"></div>
-                <div className="space-180"></div>
-                <div className="space-180"></div>
+                <div className="space-180w"></div>
+                <div className="space-180w"></div>
+                <div className="space-180w"></div>
+                <div className="space-180w"></div>
 
             </div>
 
@@ -71,7 +73,7 @@ const Banner = () => {
                         <div className="banner-extra-subtext">Unique Style</div>
                     </div>
                 </div>
-                <div className="space-31"></div>
+                <div className="space-31w"></div>
                 <div className="banner-columns">
                     <div className="info-container">
                         <div className="banner-extra-text-gradient">200+</div>
@@ -79,7 +81,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="space-31"></div>
+                <div className="space-31w"></div>
                 <div className="banner-columns">
                     <div className="info-container">
                         <div className="banner-extra-text">500+</div>
@@ -88,10 +90,10 @@ const Banner = () => {
 
                 </div>
 
-                <div className="space-180"></div>
-                <div className="space-180"></div>
-                <div className="space-180"></div>
-                <div className="space-180"></div>
+                <div className="space-180w"></div>
+                <div className="space-180w"></div>
+                <div className="space-180w"></div>
+                <div className="space-180w"></div>
             </div>
 
             <div className="space-10h"></div>

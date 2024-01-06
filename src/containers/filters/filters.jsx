@@ -17,9 +17,7 @@ import colorbutton from "../../assets/long-button-2.png";
 import clearbutton from "../../assets/long-clear.png";
 
 const Filter = () => {
-    const handleClick = () => {
-        console.log('Button was clicked!');
-    };
+
     return (
         <div className="filter-bg">
             <div className="height-spacing"></div>
@@ -44,7 +42,7 @@ const Filter = () => {
 
 
                 <div className="button-container">
-                    <img src={clearbutton} alt="colorbtn" />
+                    <img src={clearbutton} alt="clearbtn" />
                     <div className="overlay">
                         LATEST GAMES
                     </div>
@@ -52,7 +50,7 @@ const Filter = () => {
 
 
                 <div className="button-container">
-                    <img src={clearbutton} alt="colorbtn" />
+                    <img src={clearbutton} alt="clearbtn" />
                     <div className="overlay">
                         FIGHT GAMES
                     </div>
@@ -60,7 +58,7 @@ const Filter = () => {
 
 
                 <div className="button-container">
-                    <img src={clearbutton} alt="colorbtn" />
+                    <img src={clearbutton} alt="clearbtn" />
                     <div className="overlay">
                         SPORT GAMES
                     </div>

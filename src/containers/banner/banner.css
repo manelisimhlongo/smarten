@@ -29,7 +29,7 @@
     font-size: 18.715px;
     font-style: normal;
     font-weight: 400;
-    line-height: 34.642px;
+    line-height:  34.642px;
     letter-spacing: 0.749px;
 }
 
@@ -213,7 +213,6 @@
 
 .info-container {
     width: 150px;
-
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -223,15 +222,19 @@
 
 }
 
-.space {
+.space-10w {
     width: 10px;
 }
 
-.space-31 {
+.space-15w {
+    width: 15px;
+}
+
+.space-31w {
     width: 31px;
 }
 
-.space-180 {
+.space-180w {
     width: 180px;
 }
 

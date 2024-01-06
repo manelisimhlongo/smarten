@@ -10,7 +10,7 @@ const NormalBanner = () => {
         <div className="banner-row">
             <div className="banner-bar-text">Game Spanning</div>
             <div className="space-51w"></div>
-            <img src={star} alt="star" /> 
+            <img src={star} alt="star" />
             <div className="space-51w"></div>
             <div className="banner-bar-text">Action - Packed</div>
             <div className="space-51w"></div>
@@ -21,6 +21,25 @@ const NormalBanner = () => {
             <img src={star} alt="star" />
             <div className="space-51w"></div>
             <div className="banner-bar-text">collection og games</div>
+            <div className="space-51w"></div>
+            <img src={star} alt="star" />
+            <div className="space-51w"></div>
+            <div className="banner-bar-text">Game Spanning</div>
+            <div className="space-51w"></div>
+            <img src={star} alt="star" />
+            <div className="space-51w"></div>
+            <div className="banner-bar-text">Action - Packed</div>
+            <div className="space-51w"></div>
+            <img src={star} alt="star" />
+            <div className="space-51w"></div>
+            <div className="banner-bar-text">Mind Bending</div>
+            <div className="space-51w"></div>
+            <img src={star} alt="star" />
+            <div className="space-51w"></div>
+            <div className="banner-bar-text">collection og games</div>
+            <div className="space-51w"></div>
+            <img src={star} alt="star" />
+            <div className="space-51w"></div>
         </div>
 
 

@@ -1,5 +1,6 @@
 .filter-bg {
     display: flex;
+    width: 100%;
     padding: 0px 98px 0px 97px;
     flex-direction: column;
     justify-content: center;
