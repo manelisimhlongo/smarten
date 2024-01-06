@@ -39,6 +39,12 @@
 
 }
 
+.banner-text-overlay{
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 .footer-overlay{
     position: absolute;
@@ -166,4 +172,9 @@
 
 .space-10h {
     height: 10px;
+}
+
+banner-text-overlay{
+
+    top: 25%;
 }

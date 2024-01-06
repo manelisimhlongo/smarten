@@ -103,11 +103,9 @@ const Banner = () => {
 
 
             <div className="banner-bar">
-                <div className="row">
+                <div className="banner-row">
+                    <div className="banner-text-overlay">
 
-                    <div className="column">
-                        <div className="space-10h"></div>
-                        <div className="space-10h"></div>
                         <NormalBanner />
                     </div>
                 </div>

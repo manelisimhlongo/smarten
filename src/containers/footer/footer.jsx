@@ -12,7 +12,9 @@ const Footer = () => {
                 <div className="row">
                     <div className="footer-overlay">
                         <div className="banner-bar-row">
-                            <NormalBanner />
+         
+                                <NormalBanner />
+                    
                         </div>
                     </div>
                 </div>
