@@ -50,7 +50,7 @@ const TestimonialCard = ({ img, name, text, subtext }) => {
                     <div className="space-25w"></div>
                     <div className="card-column">
                         <div className="sub-text">{name}</div>
-                        <div className="small-space"></div>
+                        <div className="space-8h"></div>
                         <div className="sub-sub-text">{subtext}</div>
                     </div>
                     <div className="space-35w"></div>

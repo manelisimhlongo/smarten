@@ -60,13 +60,6 @@
     background: lightgray 50% / cover no-repeat;
 }
 
-.image-container img {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    border: 1px solid #000;
-}
-
 .avatar-img img {
     height: 100%;
     width: 100%;
@@ -93,46 +86,6 @@
     line-height: 11.06px;
     letter-spacing: 0.35px;
     text-transform: capitalize;
-}
-
-.image-container {
-    width: 361px;
-    height: 265px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #000;
-    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
-    backdrop-filter: blur(25px);
-    padding: 4;
-}
-
-.small-space {
-    height: 8px;
-}
-
-.space-10w {
-    width: 10px;
-}
-
-.space-25w {
-    width: 25px;
-}
-
-.space-35w {
-    width: 35px;
-}
-
-
-.space-18h {
-    height: 18px;
-}
-
-.space-30h {
-    height: 30px;
-}
-
-.space-20h {
-    height: 20px;
 }
 
 .center {
@@ -185,6 +138,24 @@
     padding-right: 40px;
 }
 
+.image-container {
+    width: 361px;
+    height: 265px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+    backdrop-filter: blur(25px);
+    padding: 4;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
 .star-container {
     padding-left: 35px;
     padding-top: 50px;
@@ -198,12 +169,6 @@
 .container {
     width: 100px;
     height: 100px;
-}
-
-.overlay-0 {
-    position: absolute;
-    right: 71px;
-    top: -50px;
 }
 
 .overlay {
@@ -228,6 +193,12 @@
     background-color: transparent;
 }
 
+.overlay-0 {
+    position: absolute;
+    right: 71px;
+    top: -50px;
+}
+
 .overlay-tick {
     position: absolute;
     right: 150px;
@@ -236,4 +207,32 @@
 
 .button-container {
     position: relative;
+}
+
+.space-8h {
+    height: 8px;
+}
+
+.space-10w {
+    width: 10px;
+}
+
+.space-25w {
+    width: 25px;
+}
+
+.space-35w {
+    width: 35px;
+}
+
+.space-18h {
+    height: 18px;
+}
+
+.space-30h {
+    height: 30px;
+}
+
+.space-20h {
+    height: 20px;
 }

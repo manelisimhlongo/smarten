@@ -25,7 +25,7 @@ const FilterCard = ({ img, mainImg, subtext, subsubtext }) => {
                     <div className="space-10w"></div>
                     <div className="card-column">
                         <div className="sub-text">{subtext}</div>
-                        <div className="small-space"></div>
+                        <div className="space-8h"></div>
                         <div className="sub-sub-text">{subsubtext}</div>
                     </div>
                 </div>
