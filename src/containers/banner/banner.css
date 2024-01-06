@@ -3,7 +3,6 @@
     width: 100vw;
     background: #2D1E6B;
     flex-shrink: 0;
-    flex-shrink: 0;
     flex: 1;
     display: flex;
     align-items: flex-start;
@@ -67,8 +66,6 @@
     background: url('../../assets/dashboard_image.png') center center fixed;
     background-size: cover;
     mix-blend-mode: color-dodge;
-
-
 }
 
 .banner-extra-text {
@@ -170,7 +167,6 @@
 
 .button-text {
     color: #FFF;
-
     font-family: Ondo;
     font-size: 20px;
     font-style: normal;
@@ -206,7 +202,6 @@
     padding-top: 20px;
     width: 602px;
     height: 105;
-
 }
 
 .info-container {
@@ -217,7 +212,6 @@
     flex-shrink: 0;
     flex: 1;
     display: flex;
-
 }
 
 .space-10w {
