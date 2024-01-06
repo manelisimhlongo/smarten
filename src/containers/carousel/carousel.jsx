@@ -27,7 +27,7 @@ import mainImg from '../../assets/game_couresel_1.jpeg';
 const Carousel = () => {
     return (
         <div className="carousel-background">
-            <div className="space-height"></div>
+            <div className=""></div>
 
             <div className="carousel-row">
                 <div className="carousel-heading-content">
@@ -38,7 +38,7 @@ const Carousel = () => {
                     <div className="carousel-row-text">
 
                         <div className="carousel-heading-gradient">favourite </div>
-                        <div className="space"></div>
+                        <div className="space-20w"></div>
                         <div className="carousel-heading"> games</div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Carousel = () => {
                 </div>
             </div>
 
-            <div className="space-height"></div>
+            <div className=""></div>
 
             <div className="custom-row">
                 <div className="c-column">
@@ -170,32 +170,32 @@ const Carousel = () => {
 
                                         <div className="c-row">
                                             <img src={carouselItem9} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem9} alt="item" />
 
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem9} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem9} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem9} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem9} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem9} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem9} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem10} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem10} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem10} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem10} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem10} alt="item" />
-                                            <div className="space-width"></div>
+                                            <div className="space-10w"></div>
                                             <img src={carouselItem10} alt="item" />
                                         </div>
 
@@ -311,7 +311,7 @@ const Carousel = () => {
 
 
 
-            <div className="space-height"></div>
+            <div className=""></div>
             <div className="carousel-row">
                 <div className="button-container">
                     <img src={colorbutton} alt="color" />
@@ -327,7 +327,7 @@ const Carousel = () => {
                     </div>
                 </div>
             </div>
-            <div className="space-height"></div>
+            <div className=""></div>
         </div>
     );
 }

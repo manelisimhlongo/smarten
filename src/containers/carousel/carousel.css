@@ -66,12 +66,12 @@
     word-spacing: 10px;
 }
 
-.space {
+.space-20w {
     width: 20px;
 }
 
-.space-height {
-    height: 50px;
+.space-10w {
+    width: 10px;
 }
 
 .carousel-container {
@@ -114,6 +114,24 @@
 
 }
 
+.forward-image {
+    width: 451.136px;
+    height: 366.969px;
+    flex-shrink: 0;
+    border-radius: 11.222px;
+    border: 1.122px solid var(--1, #000);
+    background-image: url('../../assets/game_couresel_2.jpeg');
+}
+
+.main-container {
+    max-width: 100%;
+    height: 450;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    align-content: center;
+}
+
 .main-img-container {
     display: flex;
     justify-content: center;
@@ -130,24 +148,6 @@
     align-items: center;
     margin: auto;
     display: flex;
-}
-
-.main-container {
-    max-width: 100%;
-    height: 450;
-    justify-content: center;
-    flex: 1;
-    align-items: center;
-    align-content: center;
-}
-
-.forward-image {
-    width: 451.136px;
-    height: 366.969px;
-    flex-shrink: 0;
-    border-radius: 11.222px;
-    border: 1.122px solid var(--1, #000);
-    background-image: url('../../assets/game_couresel_2.jpeg');
 }
 
 .custom-row {
@@ -199,14 +199,6 @@
     text-transform: uppercase;
 }
 
-.space {
-    width: 20px;
-}
-
-.space-height {
-    height: 15px;
-}
-
 .img-overlay-left {
     position: absolute;
     left: -30px;
@@ -232,6 +224,12 @@
     top: 15px;
 }
 
+.img-overlay-topleft img,
+.img-overlay-topright img {
+    height: 100px;
+    width: 100px;
+}
+
 .img-overlay-topleft2 {
     position: absolute;
     left: 30px;
@@ -249,14 +247,14 @@
     top: 18px;
 }
 
+.main-image-topcenter-overlay img {
+    max-width: max-content;
+}
+
 .top-overlay {
     position: absolute;
     top: -17px;
     right: 70px;
-}
-
-.main-image-topcenter-overlay img{
-    max-width: max-content;
 }
 
 .img-overlay-centercircle {
@@ -273,11 +271,6 @@
     position: absolute;
     left: 10px;
     top: 120px;
-}
-
-.img-overlay-topleft img{
-    height: 100px;
-    width: 100px;
 }
 
 .img-overlay-topright-center {
@@ -389,6 +382,13 @@
     justify-content: center;
 }
 
+.img-overlay {
+    position: absolute;
+    top: -95px;
+    left: 10px;
+
+}
+
 .container-mainImage-exterioritems {
     height: 70px;
     width: 20px;
@@ -404,10 +404,6 @@
     width: 20px;
 }
 
-.space-width {
-    width: 10px;
-}
-
 .column img {
     height: 20px;
     width: 20px;
@@ -419,13 +415,6 @@
     flex-shrink: 0;
     background-size: auto;
     align-items: start;
-}
-
-.img-overlay {
-    position: absolute;
-    top: -95px;
-    left: 10px;
-
 }
 
 .carousel-container2 {
