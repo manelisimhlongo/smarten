@@ -21,6 +21,7 @@ import carouselItem16 from '../../assets/carousel-16.svg';
 import carouselItem17 from '../../assets/carousel-17.svg';
 import carouselItem18 from '../../assets/carousel-18.svg';
 import carouselItem19 from '../../assets/carousel-19.png';
+import carouselItem20 from '../../assets/carousel-20.svg';
 import mainImg from '../../assets/game_couresel_1.jpeg';
 
 const Carousel = () => {
@@ -205,6 +206,22 @@ const Carousel = () => {
 
 
                                     </div>
+
+                                     {/*top right item */}
+                                     <div className="img-overlay-topright2">
+                                        <img src={carouselItem20} alt="item" />
+                                    </div>
+
+                                     {/*top right item */}
+                                     <div className="img-overlay-topleft2">
+                                        <img src={carouselItem20} alt="item" />
+                                    </div>
+
+
+
+                                    
+
+
 
 
 

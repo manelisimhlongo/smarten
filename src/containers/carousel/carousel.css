@@ -225,30 +225,25 @@
 .img-overlay-topleft {
     position: absolute;
     left: 10px;
-    top: 10px;
+    top: 15px;
 }
 
 .img-overlay-topright {
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 15px;
 }
 
-.main-image-overlay {
+.img-overlay-topleft2 {
     position: absolute;
-    top: 1070px;
-    left: 392px;
+    left: 30px;
+    top: 22px;
 }
 
-.main-image-overlay img {
-    width: 660px;
-    height: 400px;
-}
-
-.main-image-center-overlay {
+.img-overlay-topright2 {
     position: absolute;
-    top: 1040px;
-    left: 350px;
+    right: 30px;
+    top: 22px;
 }
 
 .main-image-topcenter-overlay {
@@ -266,10 +261,6 @@
     max-width: max-content;
 }
 
-
-
-
-
 .img-overlay-centercircle {
     position: absolute;
     top: -55px;
@@ -283,13 +274,17 @@
 .img-overlay-topleft-center {
     position: absolute;
     left: 10px;
-    top: 112px;
+    top: 120px;
+}
+.img-overlay-topleft img{
+    height: 100px;
+    width: 100px;
 }
 
 .img-overlay-topright-center {
     position: absolute;
     right: 10px;
-    top: 112px;
+    top: 120px;
 }
 
 .img-overlay-leftcorner {
@@ -312,7 +307,13 @@
 .img-overlay-bottomleft {
     position: absolute;
     left: 9px;
-    bottom: 3px;
+    bottom: -3px;
+}
+
+.img-overlay-bottomright {
+    position: absolute;
+    right: 10px;
+    bottom: -3px;
 }
 
 .img-overlay-bottom-center {
@@ -330,11 +331,7 @@
 
 }
 
-.img-overlay-bottomright {
-    position: absolute;
-    right: 10px;
-    bottom: 3px;
-}
+
 
 .img-overlay-aboveright {
     position: absolute;
