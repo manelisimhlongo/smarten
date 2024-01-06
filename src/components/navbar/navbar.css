@@ -5,8 +5,6 @@
     align-items: center;
     gap: 213px;
     padding: 2rem 6rem;
-
-
 }
 
 .navbar-logo-text {
@@ -24,7 +22,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 .navbar-links_logo {
@@ -51,8 +48,6 @@
     display: flex;
     align-items: flex-start;
     gap: 40px;
-
-
 }
 
 .navbar-logo {
@@ -75,13 +70,11 @@
     height: 6px;
     flex-shrink: 0;
     border-radius: 5px;
-
 }
 
 .navbar-circle img {
     height: 100%;
     width: 100%;
-
     border-radius: 53px;
 }
 
@@ -121,8 +114,6 @@
     letter-spacing: 0.72px;
     text-transform: uppercase;
     flex: 1;
-
-
 }
 
 .navbar-menu {
@@ -148,8 +139,6 @@
 .space {
     width: 10px;
 }
-
-
 
 @media screen and (max-width: 1050px) {
     .navbar-links_container {
