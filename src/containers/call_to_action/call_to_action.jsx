@@ -5,15 +5,12 @@ import clearbutton from '../../assets/clear_button.svg';
 import { NormalBanner } from "../../components";
 
 const Action = () => {
-    /*const handleClick = () => {
-        console.log('Button was clicked!');
-    };*/
+
     return (
         <div className="cta-background">
-            <div className="cta-column">
+            <div className="c-column">
 
                 <div className="space-20h"></div>
-                <div className="space-20w"></div>
                 <div className="cta-row">
 
                     <div className="cta-container">
@@ -27,6 +24,7 @@ const Action = () => {
                                 </div>
 
                             </div>
+
                             <div className="space-20w"></div>
                             <div className="space-20w"></div>
                             <div className="space-20w"></div>
@@ -64,19 +62,16 @@ const Action = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
-
-
                         </div>
-
-
-
                     </div>
 
 
                 </div>
+                <div className="space-20h"></div>
+                <div className="space-20h"></div>
+                <div className="space-20h"></div>
+                <div className="space-20h"></div>
                 <div className="space-20h"></div>
                 <NormalBanner />
             </div>

@@ -7,12 +7,20 @@ import { NormalBanner } from "../../components";
 const Footer = () => {
     return (
         <div className="footer-bg">
+
+
+
+
             <div className="column">
+
                 <div className="footer-container2">
                     <div className="row">
                         <div className="footer-overlay">
                             <div className="banner-bar-row">
-                                <NormalBanner />
+                                <div className="column">
+                                    <div className="space-30h"></div>
+                                    <NormalBanner />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -20,7 +28,9 @@ const Footer = () => {
 
 
 
+
                 <div className="content">
+
                     <div className="row">
                         <div className="container-heading">
                             <div className="column">

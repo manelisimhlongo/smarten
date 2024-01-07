@@ -27,7 +27,7 @@ import mainImg from '../../assets/game_couresel_1.jpeg';
 const Carousel = () => {
     return (
         <div className="carousel-background">
-            <div className=""></div>
+          
 
             <div className="carousel-row">
                 <div className="carousel-heading-content">
@@ -55,10 +55,10 @@ const Carousel = () => {
                 </div>
             </div>
 
-            <div className=""></div>
+            <div className="space-50h"></div>
 
             <div className="custom-row">
-                <div className="c-column">
+                <div className="column">
                     <div className="rev-image"></div>
                 </div>
 
@@ -67,7 +67,7 @@ const Carousel = () => {
                         <div className="carousel-row">
                             <div className="main-image">
 
-                                <div className="c-row">
+                                <div className="carousel-row">
                                     {/*above the carousel --right */}
                                     <div className="img-overlay-aboveright">
 
@@ -207,85 +207,70 @@ const Carousel = () => {
 
                                     </div>
 
-                                     {/*top right item */}
-                                     <div className="img-overlay-topright2">
+                                    {/*top right item */}
+                                    <div className="img-overlay-topright2">
                                         <img src={carouselItem20} alt="item" />
                                     </div>
 
-                                     {/*top right item */}
-                                     <div className="img-overlay-topleft2">
+                                    {/*top right item */}
+                                    <div className="img-overlay-topleft2">
                                         <img src={carouselItem20} alt="item" />
                                     </div>
 
 
-
-                                    
-
-
-
-
-
-                                    <div className="c-column">
-
-                                        {/*left exterior overlay */}
-                                        <div className="img-overlay-left">
-                                            <div className="container-mainImage-exterioritems">
-                                                <img src={carouselItem4} alt="item" />
-                                                <img src={carouselItem4} alt="item" />
-                                                <img src={carouselItem4} alt="item" />
-                                                <img src={carouselItem4} alt="item" />
-                                                <img src={carouselItem4} alt="item" />
-                                                <img src={carouselItem4} alt="item" />
-                                                <img src={carouselItem4} alt="item" />
-                                                <img src={carouselItem4} alt="item" />
-                                                <img src={carouselItem4} alt="item" />
-                                            </div>
-
+                                    {/*left exterior overlay */}
+                                    <div className="img-overlay-left">
+                                        <div className="container-mainImage-exterioritems">
+                                            <img src={carouselItem4} alt="item" />
+                                            <img src={carouselItem4} alt="item" />
+                                            <img src={carouselItem4} alt="item" />
+                                            <img src={carouselItem4} alt="item" />
+                                            <img src={carouselItem4} alt="item" />
+                                            <img src={carouselItem4} alt="item" />
+                                            <img src={carouselItem4} alt="item" />
+                                            <img src={carouselItem4} alt="item" />
+                                            <img src={carouselItem4} alt="item" />
                                         </div>
 
-
-                                        <img src={mainImg} alt="mainImg" />
-
-                                        {/*bottom container with text */}
-                                        <div className="main-image-bottom-overlay1">
-
-                                            <img src={carouselItem19} alt="" />
-
-                                        </div>
-
-                                        {/*bottom container with text */}
-                                        <div className="main-image-bottom-overlay">
-
-                                            <img src={carouselItem6} alt="" />
-                                            <div className="text-overlay">
-
-                                                <div className="center-text">
-                                                    sneak peeks
-                                                </div>
-                                            </div>
-                                        </div>
+                                    </div>
 
 
+                                    <img src={mainImg} alt="mainImg" />
 
+                                    {/*bottom container with text */}
+                                    <div className="main-image-bottom-overlay1">
 
+                                        <img src={carouselItem19} alt="" />
 
+                                    </div>
 
+                                    {/*bottom container with text */}
+                                    <div className="main-image-bottom-overlay">
 
-                                        {/*right hand column banner */}
-                                        <div className="img-overlay-right">
-                                            <div className="container-mainImage-exterioritems">
-                                                <img src={carouselItem5} alt="item" />
-                                                <img src={carouselItem5} alt="item" />
-                                                <img src={carouselItem5} alt="item" />
-                                                <img src={carouselItem5} alt="item" />
-                                                <img src={carouselItem5} alt="item" />
-                                                <img src={carouselItem5} alt="item" />
-                                                <img src={carouselItem5} alt="item" />
-                                                <img src={carouselItem5} alt="item" />
-                                                <img src={carouselItem5} alt="item" />
+                                        <img src={carouselItem6} alt="" />
+                                        <div className="text-overlay">
+
+                                            <div className="center-text">
+                                                sneak peeks
                                             </div>
                                         </div>
                                     </div>
+
+                                    {/*right hand column banner */}
+                                    <div className="img-overlay-right">
+                                        <div className="container-mainImage-exterioritems">
+                                            <img src={carouselItem5} alt="item" />
+                                            <img src={carouselItem5} alt="item" />
+                                            <img src={carouselItem5} alt="item" />
+                                            <img src={carouselItem5} alt="item" />
+                                            <img src={carouselItem5} alt="item" />
+                                            <img src={carouselItem5} alt="item" />
+                                            <img src={carouselItem5} alt="item" />
+                                            <img src={carouselItem5} alt="item" />
+                                            <img src={carouselItem5} alt="item" />
+                                        </div>
+                                    </div>
+
 
                                 </div>
                             </div>
@@ -300,18 +285,8 @@ const Carousel = () => {
                 </div>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-            <div className=""></div>
+            <div className="space-50h"></div>
+            <div className="space-50h"></div>
             <div className="carousel-row">
                 <div className="button-container">
                     <img src={colorbutton} alt="color" />
@@ -327,7 +302,8 @@ const Carousel = () => {
                     </div>
                 </div>
             </div>
-            <div className=""></div>
+            <div className="space-50h"></div>
+            <div className="space-50h"></div>
         </div>
     );
 }
