@@ -58,38 +58,46 @@ const Footer = () => {
                         <div className="container">
                             <div className="column">
 
+                                <div className="f-column">
+                                    <div className="footer-heading"> company</div>
+                                    <div className="space-30h"></div>
+                                    <div className="footer-text-options"> products </div>
+                                    <div className="space-30h"></div>
+                                    <div className="footer-text-options"> apps & games </div>
+                                    <div className="space-30h"></div>
+                                    <div className="footer-text-options"> features </div>
+                                </div>
 
-                                <div className="footer-heading"> company</div>
-                                <div className="space-30h"></div>
-                                <div className="footer-text-options"> products </div>
-                                <div className="space-30h"></div>
-                                <div className="footer-text-options"> apps & games </div>
-                                <div className="space-30h"></div>
-                                <div className="footer-text-options"> features </div>
                             </div>
                         </div>
 
                         <div className="container">
                             <div className="column">
-                                <div className="footer-heading"> help </div>
-                                <div className="space-30h"></div>
-                                <div className="footer-text-options"> support </div>
-                                <div className="space-30h"></div>
-                                <div className="footer-text-options"> about </div>
-                                <div className="space-30h"></div>
-                                <div className="footer-text-options"> contact us </div>
+                                <div className="f-column">
+                                    <div className="footer-heading"> help </div>
+                                    <div className="space-30h"></div>
+                                    <div className="footer-text-options"> support </div>
+                                    <div className="space-30h"></div>
+                                    <div className="footer-text-options"> about </div>
+                                    <div className="space-30h"></div>
+                                    <div className="footer-text-options"> contact us </div>
+                                </div>
+
                             </div>
                         </div>
 
                         <div className="container">
                             <div className="column">
-                                <div className="footer-heading"> resources </div>
-                                <div className="space-30h"></div>
-                                <div className="footer-text-options"> youtube playlist </div>
-                                <div className="space-30h"></div>
-                                <div className="footer-text-options"> how to - blog </div>
-                                <div className="space-30h"></div>
-                                <div className="footer-text-options"> terms and conditions </div>
+                                <div className="f-column">
+                                    <div className="footer-heading"> resources </div>
+                                    <div className="space-30h"></div>
+                                    <div className="footer-text-options"> youtube playlist </div>
+                                    <div className="space-30h"></div>
+                                    <div className="footer-text-options"> how to - blog </div>
+                                    <div className="space-30h"></div>
+                                    <div className="footer-text-options"> terms and conditions </div>
+                                </div>
+
                             </div>
                         </div>
 
