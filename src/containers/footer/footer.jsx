@@ -8,8 +8,7 @@ const Footer = () => {
     return (
         <div className="footer-bg">
 
-
-
+            <div className="footer-img-container"></div>
 
             <div className="column">
 
@@ -50,7 +49,7 @@ const Footer = () => {
                                         A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals .
                                     </div>
                                 </div>
-                                <div className="space-121h"></div>
+                                <div className="space-30h"></div>
                                 <div className="copyright">
                                     © Copyright 2023, All Rights Reserved by board
                                 </div>
@@ -108,6 +107,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 }

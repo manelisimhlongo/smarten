@@ -1,6 +1,5 @@
 .footer-bg {
-    height: 560px;
-    width: 1530px;
+    height: 530px;
     flex-shrink: 0;
     flex: 1;
     display: flex;
@@ -9,16 +8,27 @@
     padding: 0px 98px 0px 97px;
     justify-content: center;
     align-items: flex-start;
+    width: 100%;
+    background: #2D1E6B;
+}
+
+.footer-img-container {
+    position: absolute;
+    flex-shrink: 0;
     background: url('../../assets/footer_image.jpeg') no-repeat;
     background-size: contain;
-    
+    flex-direction: column;
+    height: 530px;
+    width: 1650px;
+    left: 0px;
+    mix-blend-mode: color-dodge;
 }
 
 .logo-img {
     width: 59.151px;
     height: 45.067px;
     flex-shrink: 0;
-    fill: var(--1, lightgray 50% / cover no-repeat);
+    fill: var(--1, rgb(23, 17, 17) 50% / cover no-repeat);
 }
 
 .banner-bar-row {
@@ -134,7 +144,7 @@
     align-items: center;
 }
 
-.f-column{
+.f-column {
     flex-direction: column;
     flex-shrink: 0;
     flex: 1;
