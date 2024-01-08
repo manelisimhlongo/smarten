@@ -7,8 +7,17 @@
   justify-content: flex-start;
 }
 
+@font-face {
+  font-family: Ondo;
+  src: url('../public/FONTSPRINGDEMO-OndoRegular.ttf');
+}
 
+@font-face {
+  font-family: OndoBold;
+  src: url('../public/FONTSPRINGDEMO-OndoBoldRegular.ttf');
+}
 
-
-
-
+@font-face {
+  font-family: Lato;
+  src: url('../public/Lato-Regular.ttf');
+}

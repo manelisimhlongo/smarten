@@ -1,3 +1,4 @@
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -10,10 +11,10 @@
 
 .navbar-logo-text {
     color: #FFF;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 30.767px;
-    font-style: normal;
-    font-weight: 800;
+    font-style: bold;
+    font-weight: 900;
     line-height: 34.028px;
     letter-spacing: 1.231px;
 }

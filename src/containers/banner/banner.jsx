@@ -3,6 +3,9 @@ import './banner.css';
 import clearbutton from '../../assets/clear_button.svg';
 import colorbutton from '../../assets/color_button.svg';
 import { Navbar, NormalBanner } from '../../components';
+import img1 from '../../assets/200+.png';
+import img2 from '../../assets/300+.png';
+import img3 from '../../assets/500+.png';
 const Banner = () => {
 
 
@@ -23,6 +26,7 @@ const Banner = () => {
                     <div className="space-180w"></div>
                     <div className="space-180w"></div>
                     <div className="space-180w"></div>
+                    <div className="space-15w"></div>
                     <div className="space-15w"></div>
                     <div className="space-15w"></div>
                 </div>
@@ -68,16 +72,20 @@ const Banner = () => {
             <div className="space-10h"></div>
 
             <div className="banner-row">
+                <div className="space-31w"></div>
+                <div className="space-31w"></div>
+
+                <div className="space-31w"></div>
                 <div className="banner-columns">
                     <div className="info-container">
-                        <div className="banner-extra-text">300+</div>
+                        <img src={img2} alt="300+" />
                         <div className="banner-extra-subtext">Unique Style</div>
                     </div>
                 </div>
                 <div className="space-31w"></div>
                 <div className="banner-columns">
                     <div className="info-container">
-                        <div className="banner-extra-text-gradient">200+</div>
+                        <img src={img1} alt="200+" />
                         <div className="banner-extra-subtext">Projects Finished</div>
                     </div>
                 </div>
@@ -85,7 +93,7 @@ const Banner = () => {
                 <div className="space-31w"></div>
                 <div className="banner-columns">
                     <div className="info-container">
-                        <div className="banner-extra-text">500+</div>
+                        <img src={img3} alt="500+" />
                         <div className="banner-extra-subtext">Happy Customers</div>
                     </div>
 

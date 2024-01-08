@@ -35,7 +35,7 @@ const Filter = () => {
 
                 <div className="button-container">
                     <img src={colorbutton} alt="colorbtn" />
-                    <div className="overlay">
+                    <div className="f-overlay">
                         NEWEST GAMES
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Filter = () => {
 
                 <div className="button-container">
                     <img src={clearbutton} alt="clearbtn" />
-                    <div className="overlay">
+                    <div className="f-overlay">
                         LATEST GAMES
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const Filter = () => {
 
                 <div className="button-container">
                     <img src={clearbutton} alt="clearbtn" />
-                    <div className="overlay">
+                    <div className="f-overlay">
                         FIGHT GAMES
                     </div>
                 </div>
@@ -59,7 +59,7 @@ const Filter = () => {
 
                 <div className="button-container">
                     <img src={clearbutton} alt="clearbtn" />
-                    <div className="overlay">
+                    <div className="f-overlay">
                         SPORT GAMES
                     </div>
                 </div>

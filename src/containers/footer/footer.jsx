@@ -43,6 +43,8 @@ const Footer = () => {
                                     </div>
                                 </div>
 
+                                <div className="space-30h"></div>
+
                                 <div className="footer-container">
                                     <div className="footer-text">
                                         A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals .

@@ -14,10 +14,10 @@
 
 .banner-heading-text {
     color: #FFF;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 68.937px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 76.245px;
     letter-spacing: 2.757px;
     text-transform: uppercase;
@@ -28,7 +28,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 68.937px;
     font-style: normal;
     font-weight: 800;
@@ -71,20 +71,20 @@
 
 .banner-extra-text {
     color: #FFF;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 30px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 33.18px;
     letter-spacing: 1.2px;
     text-transform: uppercase;
 }
 
 .banner-extra-text-gradient {
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 30px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 33.18px;
     letter-spacing: 1.2px;
     text-transform: uppercase;
@@ -206,7 +206,7 @@
 }
 
 .info-container {
-    width: 150px;
+    width: 200px;
     justify-content: center;
     align-items: center;
     flex-direction: column;

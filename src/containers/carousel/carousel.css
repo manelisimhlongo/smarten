@@ -193,7 +193,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    width: 200px;
     font-family: Ondo;
     font-size: 20px;
     font-style: normal;

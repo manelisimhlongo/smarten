@@ -66,7 +66,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 185.1%;
-    /* 29.616px */
     letter-spacing: 0.64px;
 }
 
@@ -94,7 +93,7 @@
 
 .logo-text {
     color: #FFF;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 39.778px;
     font-style: normal;
     font-weight: 800;
