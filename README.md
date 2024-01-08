@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+Smarten Up Web Design -- Built As Close As Possible to the Design as seen on Figma
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Banner 
+    - navbar placed at the top of the page - no functionality -- no logo included
+    - backhground image color-dodge blended with the background color 
+    - use of the Lato & Ondo text family in different boldness weights
+    - colorful and clear buttons added -- no functionality
+    - slanted banner bar at the bottom. 
 
-## Available Scripts
+- Game Carousel
+    - game carousel
+    - main carousel image
+        - has multiple images and svgs items overlayed on top of the main image 
+        - has multiple repetitions -- could be done simpler when refactoring occurs
+        - no logo included in the top of the image
+        - centered text with
+        - colorful and clear button --no functionality
 
-In the project directory, you can run:
+- Call To Action 
+    - main image overlayed over border
+    - heading text with mixed font colors 
+    - some text box with text and then following by a non functional clear button with gradient text
 
-### `npm start`
+- Filters Page 
+    - blended heading text that features 2 different font colors
+    - row of buttons  - 1 colorful and 3 clear buttons with no functionality 
+    - filter cards built in the components section of the project
+        - rounded edges
+        - background image 
+        - main image with rounded edges
+        - main text
+        - row of avatar with subtext and other text below subtext
+        - colorful button with white text --centered
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Testimonials 
+    - this page begins with a banner at the top of the page 
+    - followed by 2 testimonial cards built in the cards segment of the components
+        - testimonial card with background image 
+        - a row of starts -img
+        - 2 flags on the top right corner overlayed on top of the border
+        - some text found in the center of the card
+        - dividing line found below the text in the center of the card
+        - row of avatar, text & subtext, verification badge with tick overlayed in the center with text
+    - icons of dots below the cards
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Footer Page
+    - banner of text and star at the beginning of the page 
+    - column of logo, some text and copyright information below. 
+    - a row of 3 columns consisting of company, help and products with their respective sub details
+    - background image consisted of color-dodge mix blended image
