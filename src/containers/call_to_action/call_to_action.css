@@ -29,7 +29,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -41,7 +41,7 @@
 
 .cta-heading {
     color: #FFF;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -141,7 +141,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;

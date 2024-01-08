@@ -40,7 +40,7 @@
 .carousel-heading {
     color: #FFF;
     text-align: center;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 66px;
     font-style: normal;
     font-weight: 800;
@@ -56,7 +56,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 66px;
     font-style: normal;
     font-weight: 800;
@@ -178,8 +178,7 @@
 
 .button-text {
     color: #FFF;
-
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
@@ -194,7 +193,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: 200px;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
@@ -367,7 +366,7 @@
 .center-text {
     width: 221px;
     color: #FFF;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 22.056px;
     font-style: normal;
     font-weight: 800;

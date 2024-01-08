@@ -11,6 +11,7 @@
     align-items: flex-start;
     background: url('../../assets/footer_image.jpeg') no-repeat;
     background-size: contain;
+    
 }
 
 .logo-img {
@@ -82,7 +83,7 @@
 
 .footer-heading {
     color: #FFF;
-    font-family: Lato;
+    font-family: LatoBlack;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;

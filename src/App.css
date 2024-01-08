@@ -21,3 +21,13 @@
   font-family: Lato;
   src: url('../public/Lato-Regular.ttf');
 }
+
+@font-face {
+  font-family: LatoBold;
+  src: url('../public/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: LatoBlack;
+  src: url('../public/Lato-Black.ttf');
+}

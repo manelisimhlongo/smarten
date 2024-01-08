@@ -15,7 +15,7 @@
 .text {
     color: #FFF;
     text-align: center;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 66px;
     font-style: normal;
     font-weight: 800;
@@ -29,7 +29,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Ondo;
+    font-family: OndoBold;
     font-size: 66px;
     font-style: normal;
     font-weight: 800;
@@ -100,6 +100,27 @@
     font-size: 19px;
     font-style: normal;
     font-weight: 800;
+    line-height: 19.908px;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    height: 21.667px;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+
+.f-overlay-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    font-family: LatoBlack;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 900;
     line-height: 19.908px;
     letter-spacing: 0.72px;
     text-transform: uppercase;

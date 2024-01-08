@@ -35,7 +35,7 @@ const Filter = () => {
 
                 <div className="button-container">
                     <img src={colorbutton} alt="colorbtn" />
-                    <div className="f-overlay">
+                    <div className="f-overlay-2">
                         NEWEST GAMES
                     </div>
                 </div>
