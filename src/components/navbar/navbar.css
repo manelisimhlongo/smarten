@@ -5,6 +5,7 @@
     align-items: center;
     gap: 213px;
     padding: 2rem 6rem;
+
 }
 
 .navbar-logo-text {
@@ -78,6 +79,12 @@
     border-radius: 53px;
 }
 
+.circle-overlay {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+
 .navbar-menu_container {
     display: flex;
     justify-content: flex-end;
@@ -93,6 +100,32 @@
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
+
+.last-container {
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top:4px;
+    right: 2px;
+    background: url('../../assets/basket_circle.png');
+    backdrop-filter: blur(0px);
+}
+
+.last-container img {
+    position: absolute;
+    left: -1px;
+    top: 60px;
+    height: 6px;
+    width: 6px;
+    border-radius: 53px;
+}
+
+.basket-container{
+    height: 40px;
+    width: 25px;
+    backdrop-filter: blur(0px);
+}
+
 
 .navbar-links_container p,
 .navbar-menu_container p {
@@ -138,6 +171,15 @@
 
 .space {
     width: 10px;
+}
+
+.n-row {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex: 1;
+
 }
 
 @media screen and (max-width: 1050px) {

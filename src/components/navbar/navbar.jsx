@@ -31,15 +31,18 @@ const Navbar = () => {
                     <p> Support </p>
                 </div>
             </div>
-            <div className="nvabar-links_logo">
-                <div className='row'>
-                    <img src={basket} alt="basket" />
-                    <div className='navbar-circle'>
-                        <img src={circle} alt="circle" />
-                    </div>
-                </div>
 
+            <div className="nvabar-links_logo">
+
+                <div className="basket-container">
+
+                    <img src={basket} alt="basket" />
+                    <div className="last-container"></div>
+
+
+                </div>
             </div>
+
 
 
 
