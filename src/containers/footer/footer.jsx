@@ -50,6 +50,8 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className="space-30h"></div>
+                                <div className="space-30h"></div>
+                                <div className="space-30h"></div>
                                 <div className="copyright">
                                     © Copyright 2023, All Rights Reserved by board
                                 </div>
