@@ -13,7 +13,7 @@
 }
 
 .banner-heading-text {
-    color: #FFF;
+    color: white;
     font-family: OndoBold;
     font-size: 68.937px;
     font-style: normal;
@@ -21,6 +21,7 @@
     line-height: 76.245px;
     letter-spacing: 2.757px;
     text-transform: uppercase;
+    -webkit-text-fill-color: white;
 }
 
 .banner-heading-gradient-text {
