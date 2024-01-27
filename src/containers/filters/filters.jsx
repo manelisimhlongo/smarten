@@ -66,6 +66,7 @@ const Filter = () => {
 
             </div>
             <div className="space-86h"></div>
+            
             <div className="filter-row">
                 <FilterCard img={avatar1} subsubtext={'Gillette'} subtext={'Cameron Williamson'} mainImg={img1} />
                 <div className="space-27w"></div>

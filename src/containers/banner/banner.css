@@ -1,4 +1,3 @@
-
 .banner-section {
     width: 100%;
     background: #2D1E6B;
@@ -157,6 +156,30 @@
     grid-auto-flow: row;
     display: flex;
     justify-content: flex-start;
+    padding-right: 750px;
+}
+
+.button-banner-row {
+    grid-auto-flow: row;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 650px;
+    padding-bottom: 30px;
+}
+
+.items-banner-row {
+    grid-auto-flow: row;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 600px;
+    padding-bottom: 20px;
+}
+
+.p-banner-row{
+    grid-auto-flow: row;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 700px;   
 }
 
 .column {
@@ -214,26 +237,6 @@
     flex-shrink: 0;
     flex: 1;
     display: flex;
-}
-
-.space-10w {
-    width: 10px;
-}
-
-.space-15w {
-    width: 15px;
-}
-
-.space-31w {
-    width: 31px;
-}
-
-.space-180w {
-    width: 180px;
-}
-
-.space-10h {
-    height: 10px;
 }
 
 .button-container {
