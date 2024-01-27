@@ -39,6 +39,11 @@
     word-spacing: 10px;
 }
 
+.cta-heading-container {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
 .cta-heading {
     color: #FFF;
     font-family: OndoBold;
@@ -52,6 +57,7 @@
 
 .cta-subheading-container {
     width: 463px;
+    padding-bottom: 50px;
 }
 
 .cta-subheading {
@@ -71,6 +77,8 @@
     flex: 1;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
 
 .cta-row-heading {
@@ -86,6 +94,7 @@
     flex: 1;
     display: inline-block;
     justify-content: center;
+    padding-left: 60px;
 }
 
 .head-text {
@@ -105,22 +114,6 @@
     flex-shrink: 0;
     background-size: auto;
     align-items: start;
-}
-
-.space-20w {
-    width: 20px;
-}
-
-.space-10w {
-    width: 10px;
-}
-
-.space-20h {
-    height: 20px;
-}
-
-.space-10h {
-    height: 10px;
 }
 
 .img-overlay {
@@ -156,6 +149,6 @@
     display: inline-block;
 }
 
-.row-button{
+.row-button {
     flex: 1;
 }
