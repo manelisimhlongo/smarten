@@ -58,7 +58,7 @@ const Banner = () => {
                 <div className="button-container">
                     <img src={clearbutton} alt="clear-button" onClick={clearClick} style={{ opacity: showClear ? 0.5 : 1 }} onMouseEnter={() => setClear(true)}
                         onMouseLeave={() => setClear(false)} />
-                    <div class='text-overlay'>
+                     <div class='text-overlay'>
                         <div className="button-text-gradient" > play now </div>
                     </div>
                 </div>

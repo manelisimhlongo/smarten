@@ -26,7 +26,7 @@ import mainImg from '../../assets/game_couresel_1.jpeg';
 
 const Carousel = () => {
     return (
-        <div className="carousel-background">
+        <main className="carousel-background">
           
 
             <div className="carousel-row">
@@ -38,14 +38,14 @@ const Carousel = () => {
                     <div className="carousel-row-text">
 
                         <div className="carousel-heading-gradient">favourite </div>
-                        <div className="space-20w"></div>
+                       
                         <div className="carousel-heading"> games</div>
                     </div>
                 </div>
             </div>
 
 
-            <div className="carousel-row">
+            <section className="carousel-row">
                 <div className="carousel-container">
 
                     <div className="carousel-container-text">
@@ -53,11 +53,11 @@ const Carousel = () => {
 
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="space-50h"></div>
+       
 
-            <div className="custom-row">
+            <section className="custom-row">
                 <div className="column">
                     <div className="rev-image"></div>
                 </div>
@@ -283,11 +283,10 @@ const Carousel = () => {
                 <div className="column">
                     <div className="forward-image"></div>
                 </div>
-            </div>
+            </section>
 
-            <div className="space-50h"></div>
-            <div className="space-50h"></div>
-            <div className="carousel-row">
+       
+            <section className="button-row">
                 <div className="button-container">
                     <img src={colorbutton} alt="color" />
                     <div class='text-overlay'>
@@ -301,10 +300,9 @@ const Carousel = () => {
                         <div className="button-text-gradient"> play now </div>
                     </div>
                 </div>
-            </div>
-            <div className="space-50h"></div>
-            <div className="space-50h"></div>
-        </div>
+            </section>
+      
+        </main>
     );
 }
 

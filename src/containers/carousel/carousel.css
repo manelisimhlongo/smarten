@@ -19,6 +19,7 @@
 
 .carousel-heading-content {
     width: 718px;
+    padding-top: 30px;
 }
 
 .c-row {
@@ -64,18 +65,7 @@
     letter-spacing: 2.64px;
     text-transform: uppercase;
     word-spacing: 10px;
-}
-
-.space-20w {
-    width: 20px;
-}
-
-.space-10w {
-    width: 10px;
-}
-
-.space-50h{
-    height: 50px;
+    padding-right: 20px;
 }
 
 .carousel-container {
@@ -161,7 +151,18 @@
     flex: 1;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
 
+}
+
+.button-row {
+    flex-direction: row;
+    flex-shrink: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
 .custom-row p {
